@@ -36,3 +36,4 @@ public class P27DiamondPattern {
         }  
     }  
 }
+// comment
