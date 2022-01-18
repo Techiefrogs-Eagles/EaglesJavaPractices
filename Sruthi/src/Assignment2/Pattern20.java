@@ -8,7 +8,7 @@ public class Pattern20 {
             for(int j = i; j <= n; j++){ 
                 System.out.print(" "); 
                 }
-            for(int j = 1; j < i; j++){ // here dont give <= to reduce a column
+            for(int j = 1; j < i; j++){ // < to reduce a column
                 System.out.print((char)p+++"");
                 }
             for(int j = 1; j <= i; j++){

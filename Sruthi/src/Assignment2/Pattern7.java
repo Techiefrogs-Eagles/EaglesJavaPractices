@@ -7,7 +7,7 @@ public class Pattern7 {
         for(int i=1; i<=n; i++){
            int p='F';
             for(int j=i; j<=n; j++){ 
-                System.out.print((char)p-- + " "); // typecasting character here, to avoid ASCII value of A getting printed
+                System.out.print((char)p-- + " "); // typecasting character
                 }
             System.out.println();
             }
