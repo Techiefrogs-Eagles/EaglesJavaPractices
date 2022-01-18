@@ -8,7 +8,7 @@ public class Pattern16 {
             for(int j = i; j <= n; j++){ 
             System.out.print(" "); 
             }
-            for(int j = 1, p = 'A'; j <= i; j++,p++){ 
+            for(int j = 1, p = 'A'; j <= i; j++,p++){ //loop runs from 1 to i
             System.out.print((char)p+ " ");
             }
             System.out.println();

@@ -5,8 +5,8 @@ public class Pattern3 {
         int n = 6;
         for(int i=1; i<=n; i++){
            int p='A';
-            for(int j=1; j<i; j++){ // <  instead of <= to get peak 
-                System.out.print((char)p++ + " "); // typecasting character here, otherwise it will print ASCII value of A
+            for(int j=1; j<i; j++){ // < for peak
+                System.out.print((char)p++ + " "); // typecasting character
                 }
             System.out.println();
             }
@@ -14,7 +14,7 @@ public class Pattern3 {
             for(int i=1; i<=n; i++){
                 int p='A';
                  for(int j=i; j<=n; j++){
-                     System.out.print((char)p++ + " "); // typecasting character here, otherwise it will print ASCII value of A
+                     System.out.print((char)p++ + " "); // typecasting character 
                      }
                  System.out.println();
                  }
