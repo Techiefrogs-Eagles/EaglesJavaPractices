@@ -1,4 +1,4 @@
-package Basicpractice;
+
 
 public class Datatypedemo {
     static boolean b; // true or false //it takes the default value of false if we don't initialize
