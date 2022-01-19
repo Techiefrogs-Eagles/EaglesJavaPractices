@@ -13,7 +13,7 @@ public class Pattern1 {
         for(int i=1; i<=n; i++){
            int p='A';
             for(int j=1; j<=i; j++){
-                System.out.print((char)p++ + " "); // typecasting character here, otherwise it will print ASCII value of A
+                System.out.print((char)p++ + " "); // typecasting character here, to avoid ASCII value of A
                 }
             System.out.println();
             }

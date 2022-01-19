@@ -6,7 +6,7 @@ public class Pattern5 {
         int n = 6;
         for(int i=1,p='F'; i<=n; i++,p++){
            
-            for(int j=i; j<=n; j++,p--){ //for decreasing triangle the loop runs from i to n
+            for(int j=i; j<=n; j++,p--){ 
                 System.out.print((char)p+ " "); // typecasting character here, otherwise it will print ASCII value of A
                 }
             System.out.println();
