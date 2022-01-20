@@ -1,5 +1,4 @@
 package Basicpractice;
-
 public class ConstructorDemo {
     String S1;
     String S2;
@@ -18,7 +17,6 @@ public class ConstructorDemo {
         int No = 8676100;
         System.out.println("Account No: " +No);
         System.out.println("Name: Sruthi");
-        //System.err.println(Sruthi.i);
         System.out.println("Bank Name: " + Sruthi.S1 + "," + " Branch Name: " + Sruthi.S2 + "," + " IFSC Code: " + Sruthi.S3);
 
         ConstructorDemo Vinoth = new ConstructorDemo();
