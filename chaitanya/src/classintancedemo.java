@@ -7,7 +7,7 @@ public class classintancedemo {
         int a = 17;
 
         classintancedemo classobject = new classintancedemo() ;
-
+        
         classobject.str = "team";
 
         classintancedemo cobject1 = new classintancedemo();
