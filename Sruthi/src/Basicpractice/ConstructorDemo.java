@@ -1,6 +1,4 @@
 package Basicpractice;
-// Constructor is called by new keyword when instance is created
-//Constructor doesn't have return type // No declaration & defining inside constructor, only initialization inside
 
 public class ConstructorDemo {
     String S1;
