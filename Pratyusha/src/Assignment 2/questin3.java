@@ -1,4 +1,4 @@
-public class questin2 {
+public class questin3 {
     public static void main(String[] args) {
         
         int lines=4;
