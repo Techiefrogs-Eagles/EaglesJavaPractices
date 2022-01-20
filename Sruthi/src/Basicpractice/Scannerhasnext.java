@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Scannerhasnext {
     public static void main(String[] args) {
         String s = "welcome to hasnext! 4 / 4.1 = 1";
-        Scanner scan = new Scanner(s); // instead of (s) we can also five(System.in). there are various input stream
+        Scanner scan = new Scanner(s); // instead of (s) we can also give(System.in). there are various input stream
         
 // boolean hasNext()
         /*System.out.println("" +scan.hasNext()); // hasNext chks if scanner has a token -->if yes returns true

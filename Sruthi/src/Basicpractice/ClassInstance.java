@@ -1,10 +1,12 @@
+package Basicpractice;
+//  Class & Object
 public class ClassInstance {
     int a = 200;
     static int b = 10;
     String S = "It's my Class instance program";
     static String S1 = "It";
 
-    void calculator()
+    void calculator() // method 
     {
         int a,b,c;
         a = 10; b = 20;
@@ -20,7 +22,7 @@ public class ClassInstance {
     
         ClassInstance Obj1 = new ClassInstance();
         Obj1.a = 250;
-        Obj1.calculator();
+        Obj1.calculator(); // method calling
         Obj1.S1 = "Hi";
         Obj1.S1 = "Hello";
                 
