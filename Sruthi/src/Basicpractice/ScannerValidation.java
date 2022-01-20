@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerValidation {
     public static void main(String[] args) {
 
-// validates if the given no is integer. if not it aks the end user to give integer value   
+// validates if the given no is integer. if not, it asks the end user to give integer value   
       
   /*      Scanner obj = new Scanner(System.in);
         System.out.println("Please enter an Integer number");
@@ -31,7 +31,7 @@ public class ScannerValidation {
                 obj.next();
             }
             num = obj.nextInt();
-        } while (num<=0); // chking if the netered no is positive or negative
+        } while (num<=0); // chking if the entered no is positive or negative
             System.out.println(num + " what u entered is positive number"); 
             obj.close(); 
 
