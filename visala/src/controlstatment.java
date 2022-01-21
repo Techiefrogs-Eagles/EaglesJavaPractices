@@ -1,7 +1,7 @@
 
 
 public class controlstatment{
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
         int age = 5;
         if(age >= 5)
         {
