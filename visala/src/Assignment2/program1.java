@@ -1,3 +1,5 @@
+package Assignment2;
+
 public class program1 {
 
     public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class program1 {
      System.out.print(j);
    }
    System.out.println();
-  } 1
+  } 
 }
 }
     

@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class multipulication {
     public static void main(String[] args) {
         int num=5;
