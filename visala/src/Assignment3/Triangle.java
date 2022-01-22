@@ -3,9 +3,9 @@ public class Triangle {
    
  int p;
 double A;
-int a;
-int b;
- int c;
+public int a;
+public int b;
+public int c;
 
 
     Triangle()
@@ -14,9 +14,9 @@ int b;
         
     }
     public static void main(String[] args) {
-      int a=3;
-     int b=4;
-      int c=5;
+      double a=3;
+     double b=4;
+      double c=5;
      double p;
         Triangle perameter=new Triangle();
         perameter.p=(int) (a+b+c);
@@ -33,9 +33,8 @@ double A;
 
     }
     private static double sqrt(double d) {
-      return 0;
+        return 0;
     }
-   
    
     
     }
