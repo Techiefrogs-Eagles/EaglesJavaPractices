@@ -1,8 +1,6 @@
-import javax.lang.model.util.ElementScanner14;
+package Assignment1;
 
-/**
- * alphabetornot
- */
+
 public class alphabetornot {
  
     public static void main(String[] args) {

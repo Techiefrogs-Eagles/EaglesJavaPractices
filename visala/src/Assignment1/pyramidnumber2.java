@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class pyramidnumber2 {
     public static void main(String[] args) {
        
