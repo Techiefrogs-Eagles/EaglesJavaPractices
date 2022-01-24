@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class gcd {
     public static void main(String[] args) {
         int n1 = 9, n2 = 45;
