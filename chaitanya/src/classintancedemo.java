@@ -5,7 +5,7 @@ public class classintancedemo {
 
     public static void main(String[] args) {
         int a = 17;
-
+       
         classintancedemo classobject = new classintancedemo() ;
         
         classobject.str = "team";
