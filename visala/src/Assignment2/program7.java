@@ -1,3 +1,5 @@
+package Assignment2;
+
 public class program7 {
     public static void main(String[] args) {
         int lines=4;  

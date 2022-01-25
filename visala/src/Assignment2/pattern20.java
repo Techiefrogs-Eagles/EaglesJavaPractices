@@ -1,5 +1,5 @@
 package Assignment2;
 
-public 9class pattern20 {
+public class pattern20 {
     
 }
