@@ -1,7 +1,7 @@
 public class Numpositiveorneg {
 
     public static void main(String[] args) {
-        int num = -10 ;
+        int num = 10 ;
         System.out.println((num>0)?"positive": "Negative");
     }
 }

@@ -1,3 +1,4 @@
+package Assignment1;
 import java.util.Scanner;
 public class diamondshape {
     public static void main(String args[]) 
