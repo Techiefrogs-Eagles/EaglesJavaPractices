@@ -1,3 +1,4 @@
+package Assignment2;
 public class P1 {
     public static void main(String[] args) {
         int i,j,lines=5;  

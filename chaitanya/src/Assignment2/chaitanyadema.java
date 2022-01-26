@@ -1,6 +1,6 @@
 package Assignment2;
 
-public class ClassintanceDemo {
+public class chaitanyadema {
     int i = 10;
     String str = "Hello";
     static int j = 10;
@@ -11,13 +11,12 @@ public class ClassintanceDemo {
     public static void main(String[] args) {
         int a =20;
 
-        ClassintanceDemo classobject = new ClassintanceDemo();
+        chaitanyadema classobject = new chaitanyadema();
        // classobject.i = 800;
        // classobject.str ="Bach";
-      //  classobject.j = 80;
-        classobject.display();
+      //  classobject.j = 80;y();
 
-        ClassintanceDemo cobject1 = new ClassintanceDemo();
+        chaitanyadema cobject1 = new chaitanyadema();
         cobject1.str = "Egiles";
        // cobject1.i = 200;
        // cobject1.j = 1000;
@@ -27,3 +26,4 @@ public class ClassintanceDemo {
         System.out.println(cobject1.i+"  "+cobject1.str);
     }
 }
+
