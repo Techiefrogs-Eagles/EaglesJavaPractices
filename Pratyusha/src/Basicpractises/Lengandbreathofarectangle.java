@@ -1,3 +1,5 @@
+package Basicpractises;
+
 /*
     Accept length and breath of a rectangle and calculate area and perimeter?
     Enter Length and Breath : 4 5

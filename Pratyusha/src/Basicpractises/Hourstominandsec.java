@@ -1,3 +1,5 @@
+package Basicpractises;
+
 /*
     Accept Hours, Convert into minutes and seconds ?
     Enter Hours : 1
