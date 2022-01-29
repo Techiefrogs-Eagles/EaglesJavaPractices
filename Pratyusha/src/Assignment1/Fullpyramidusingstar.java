@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class Fullpyramidusingstar {
     public static void main(String[] args) {
         int rows = 5;

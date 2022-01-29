@@ -1,3 +1,4 @@
+package Assignment1;
 
 public class factorialofanumberforloop {
     public static void main(String[] args) {

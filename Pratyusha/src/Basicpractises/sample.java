@@ -1,3 +1,7 @@
+package Basicpractises;
+
+    
+
 import java.util.Scanner;
 public class sample {
     public static void main(String[] args) {
@@ -12,7 +16,7 @@ public class sample {
         double height = sc.nextDouble();
         System.out.print("Enter Salary:");
         int salary = sc.nextInt();
-        scanner.close();
+        sc.close();
         {
 
         System.out.println("Name:" + st);;
@@ -23,3 +27,4 @@ public class sample {
     }
   }
 }
+

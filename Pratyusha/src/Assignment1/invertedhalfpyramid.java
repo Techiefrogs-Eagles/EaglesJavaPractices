@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class invertedhalfpyramid {
 
         public static void main(String[] args) {

@@ -16,9 +16,13 @@ public class constructorChaining
     {
         System.out.println(x * y);
     }
- 
+    void laxman()
+    {
+        System.out.println("IN DISPLAY METHOD");
+    }
     public static void main(String args[])
     {
-        constructorChaining code = new constructorChaining();
+        constructorChaining hello = new constructorChaining();
+        hello.laxman();
     }
 }

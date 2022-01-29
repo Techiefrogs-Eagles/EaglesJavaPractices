@@ -11,7 +11,7 @@ public class ClassintanceDemo {
     public static void main(String[] args) {
         int a =20;
 
-        ClassintanceDemo  classobject = new ClassintanceDemo();
+        ClassintanceDemo classobject = new ClassintanceDemo();
        // classobject.i = 800;
        // classobject.str ="Bach";
       //  classobject.j = 80;

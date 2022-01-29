@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class multiplicationofatablewhileloop {
     public static void main(String[] args) {
         int num = 9 , i = 1 ;

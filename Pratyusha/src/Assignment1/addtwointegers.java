@@ -1,3 +1,5 @@
+package Assignment1;
+
  public class addtwointegers {
     public static void main(String[] args) {
         System.out.println("Enter two numbers");

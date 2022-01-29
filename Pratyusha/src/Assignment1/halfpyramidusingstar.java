@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class halfpyramidusingstar {
     public static void main(String[] args) {
         int rows = 5;

@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class halfpyramidsusingsnums {
     public static void main(String[] args) {
         int rows = 5;
