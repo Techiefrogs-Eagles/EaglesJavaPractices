@@ -1,8 +1,21 @@
 public class MethodsDemo1 {
-    public static void main(String[] args) { 
-        Methodsdemo methoddemo = new Methodsdemo();
-        int sum = methoddemo.sum(5,10);
-        System.out.println("The sum of 2 values is  "+sum);
+    
+    public static void main(String[] args) {
+        MethodsDemo1 methodDemo =new MethodsDemo1();
+        methodDemo.display();
+        int sum = methodDemo.sum(5,10);
+        System.out.println("the sum of 2 values is "+sum);
+        String name = "Satya";
+        String myname = methodDemo.myMethod(name);
+        System.out.println("My returned string value "+myName);
+        System.out.println(methodDemo.match());
+        MethodsDemo1.myStaticMethod();
+        //myStaticMeetod();
+
+    }
+     
+    static void myStaticMetod(){
+        System.out.println("In my static method");
     }
     
     void display(){
