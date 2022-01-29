@@ -1,4 +1,5 @@
-package src.Assignment3;
+package Assignment3.Assignment3;
+
 
 public class program2 {
     String Name;

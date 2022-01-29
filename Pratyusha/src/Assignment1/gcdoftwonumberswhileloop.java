@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class gcdoftwonumberswhileloop {
     public static void main(String[] args) {
         int n1 = 81 , n2 = 153;

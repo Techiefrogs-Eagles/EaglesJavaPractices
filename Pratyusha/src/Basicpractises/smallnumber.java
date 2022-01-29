@@ -1,4 +1,5 @@
-package src.Basicpractises;
+package Basicpractises;
+
 import java.util.Scanner;
 public class smallnumber {
     public static void main(String[] args) {
@@ -7,6 +8,7 @@ public class smallnumber {
         System.out.println("Enter the two Numbers:");
         num1 = sc.nextInt();
         num2 = sc.nextInt();
+        sc.close();
         if(num1<num2)
         {
             System.out.println(num1);

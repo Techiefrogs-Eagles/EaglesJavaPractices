@@ -1,4 +1,4 @@
-package src.Assignment3;
+package Assignment3.Assignment3;
 
 public class Student {
         String name;
