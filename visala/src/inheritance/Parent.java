@@ -1,3 +1,5 @@
+package inheritance;
+
 public class Parent extends Grandparent {
     
      void display1()
