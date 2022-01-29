@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class displayalphabets {
     public static void main(String[] args) {
         char c;

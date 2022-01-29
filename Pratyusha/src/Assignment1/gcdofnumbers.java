@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class gcdofnumbers {
     public static void main(String[] args) {
         int Num1 = 15, Num2 = 30, Temp, GCD=0;

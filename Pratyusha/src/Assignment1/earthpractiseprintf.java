@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class earthpractiseprintf {
     public static void main(String[] args) {
         String planet="Earth";

@@ -16,8 +16,10 @@ public class Hourstominandsec {
         hrs=sc.nextInt();
         min=hrs*60;
         sec=hrs*60*60;
+        sc.close();
         System.out.println("Miniutes:"+ min);
         System.out.println("Seconds:" + sec);
+
 
     }
 }

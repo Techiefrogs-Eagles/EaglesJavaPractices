@@ -1,3 +1,5 @@
+package Basicpractises;
+
 /*
     Accept Num print square and cube ?
     Enter Number : 5
@@ -12,6 +14,7 @@
             int num = input.nextInt();
             int sqr = num*num;
             int cube=num*num*num;
+            input.close();
             System.out.println("Square:"+sqr);
             System.out.println("Cube:"+cube);
             
