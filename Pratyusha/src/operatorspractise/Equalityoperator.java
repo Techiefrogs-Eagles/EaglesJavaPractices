@@ -1,3 +1,5 @@
+package operatorspractise;
+
 /*
 Equality or relational operators -> Boolean operatoer
 */

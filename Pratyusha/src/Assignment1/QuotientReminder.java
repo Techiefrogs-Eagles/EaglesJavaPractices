@@ -1,4 +1,4 @@
-import javax.sql.rowset.spi.SyncFactory;
+package Assignment1;
 
 public class QuotientReminder {
     public static void main(String[] args){
