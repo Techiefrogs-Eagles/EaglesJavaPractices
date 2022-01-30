@@ -1,3 +1,5 @@
+package ClassesObjects;
+
 public class Average {
     int n1;
     int n2;
