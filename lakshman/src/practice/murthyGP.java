@@ -15,6 +15,7 @@ public class murthyGP
     {
         murthyGP obj = new murthyGP();
         System.out.println(obj.money);
+        System.out.println(obj.asset2);
     }
 
 }

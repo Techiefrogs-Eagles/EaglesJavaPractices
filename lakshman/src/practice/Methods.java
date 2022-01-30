@@ -40,7 +40,6 @@ public class Methods
 
     int venkat()
     {
-        Methods metobj1 = new Methods();
         int k = 6;
         return k;
     }
