@@ -30,5 +30,6 @@ public class classinstanceDemo
         classinstanceDemo f = new classinstanceDemo();
         f.a = 70;
         System.out.println("f"+"    "+f.a);
+        
     }
 }
