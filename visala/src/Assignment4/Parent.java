@@ -1,7 +1,7 @@
 package Assignment4;
 
 public class Parent{
- void  display()
+ void display()
     {
         System.out.println("This is Parent Class");
 
@@ -9,8 +9,9 @@ public class Parent{
       
 public static void main(String[] args) {
 
-  //Parent pobj=new Parent();
-      
+  
+  Parent pobj=new Parent();
+  pobj.display();
 
 }
 }
