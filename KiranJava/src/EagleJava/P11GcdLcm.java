@@ -1,4 +1,4 @@
-public class P11GcdLcm {
+package EagleJava;public class P11GcdLcm {
     public static void main(String[] args) {
         int x=72,y=120,gcd=1,lcm;
         for(int i=1;i<=x && i<=y;i++)

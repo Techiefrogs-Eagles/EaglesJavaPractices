@@ -1,4 +1,4 @@
-public class P19AlphHPyra {
+package EagleJava;public class P19AlphHPyra {
     public static void main(String[] args) {
         char ch='A';
         int i,j;

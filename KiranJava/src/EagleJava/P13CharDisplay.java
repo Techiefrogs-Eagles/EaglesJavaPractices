@@ -1,4 +1,4 @@
-public class P13CharDisplay {
+package EagleJava;public class P13CharDisplay {
     public static void main(String[] args) {
         char c;
         for(c ='A'; c<='Z'; ++c)

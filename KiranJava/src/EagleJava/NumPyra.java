@@ -1,3 +1,5 @@
+package EagleJava;
+
 public class NumPyra {
     public static void main(String[] args) {
        int i,j,row=8;
