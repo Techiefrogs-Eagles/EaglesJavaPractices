@@ -1,4 +1,5 @@
-import java.util.jar.Manifest;
+package Assignment2;
+
 
 public class pattern19 {
 public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Assignment2;
+
 public class question1 {
     public static void main(String[] args) {
         int i,j,lines=5;  

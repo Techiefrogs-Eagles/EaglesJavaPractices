@@ -1,3 +1,5 @@
+package Assignment2;
+
 public class questin3 {
     public static void main(String[] args) {
         

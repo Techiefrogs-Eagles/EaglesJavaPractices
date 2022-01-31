@@ -1,3 +1,5 @@
+package Assignment2;
+
 public class pattern2 {
     public static void main(String[] args) {
         int alphabet = 65;

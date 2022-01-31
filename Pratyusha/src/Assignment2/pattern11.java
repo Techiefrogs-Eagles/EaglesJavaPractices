@@ -1,11 +1,12 @@
-public class pattern7 {
-    public static void main(String[] args) {
-    {
-        int alphabet = 65;
+package Assignment2;
 
+public class pattern11 {
+    public static void main(String[] args)
+    {
         for (int i = 0; i <= 5; i++)
         {
-            for (int j = 5; j >= i; j--)
+            int alphabet = 65;
+            for (int j = i; j >= 0; j--)
             {
                 System.out.print((char) (alphabet + j) + " ");
             }
@@ -13,5 +14,4 @@ public class pattern7 {
         }
     }
 }
-    }
 
