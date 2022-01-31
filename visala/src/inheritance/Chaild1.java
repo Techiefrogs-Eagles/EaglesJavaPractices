@@ -26,9 +26,7 @@ public class Chaild1 extends Parent {
         cobj1.display1();
         cobj1.alldisplay();
         System.out.println(Grandparent.sum(2,3));
-      
-        
-       System.out.println( cobj1.mul());
+        System.out.println( cobj1.mul());
 
         
     }
