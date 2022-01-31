@@ -1,4 +1,4 @@
-
+package ClassesObjects;
 class Triangle{
   int a,b,c;
   public double getArea(){

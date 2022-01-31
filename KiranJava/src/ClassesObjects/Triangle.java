@@ -1,3 +1,4 @@
+package ClassesObjects;
 public class Triangle {
     
         int a,b,c,p;

@@ -5,16 +5,17 @@ public class pattern12
     public static void main(String[] args) 
     {
         int rows = 6;
-        int upto = 65;
-        char start = 65;
+        int upto = 1;
+        int start = 1;
+        int alpha = 64;
             for (int i = 1;i<=rows;i++)
             {
-                for (char j = start;j<=upto;j+=(rows-1))
+                for (int j = start;j<=upto;j+=(rows-1))
                 {
-                    System.out.print(j+" ");
+                    System.out.print((char)(j+alpha)+" ");
                 }
                 System.out.println();
-                start = ++start;
+                start = start+1;
                 upto = upto+rows;
             }
     }

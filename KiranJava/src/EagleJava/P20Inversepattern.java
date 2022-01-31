@@ -1,4 +1,4 @@
-public class P20Inversepattern {
+package EagleJava;public class P20Inversepattern {
     public static void main(String[] args) {
         int rows = 7;
     

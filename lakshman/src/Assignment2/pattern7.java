@@ -4,16 +4,17 @@ public class pattern7
 {
     public static void main(String[] args) 
     {
-        char rows = 'F';
-        char col = 'A';
-        for (char i = 'A'; i <= rows; i++) 
+        int alpha = 64;
+        int rows = 6;
+        int col = 1;
+        for (int i = 1; i <= rows; i++) 
         {
-            for (char j = rows; j >= col; j--) 
+            for (int j = rows; j >= col; j--) 
             {
-                System.out.print(j);
+                System.out.print((char)(j+alpha));
             }
             System.out.println();
-            col = ++col;    
+            col = col+1;    
         }
     }
 }

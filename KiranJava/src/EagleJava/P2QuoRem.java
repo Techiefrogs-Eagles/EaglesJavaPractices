@@ -1,3 +1,4 @@
+package EagleJava;
 public class P2QuoRem {
     public static void main(String[] args) {
 

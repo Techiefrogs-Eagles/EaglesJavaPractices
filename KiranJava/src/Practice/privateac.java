@@ -1,7 +1,7 @@
-package Practice;
+//package Practice;
 public class privateac {
     public static void main(String[] args) {
-        //A obj=new A();
+        A obj=new A();
         int b=obj.c;
         System.out.println(b);
         obj.name();

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package EagleJava;import java.util.Scanner;
 
 public class P8Facto {
     public static void main(String[] args) {
