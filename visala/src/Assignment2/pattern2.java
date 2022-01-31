@@ -2,7 +2,7 @@ package Assignment2;
 
 public class pattern2 {
     public static void main(String[] args) {
-        int alphabet = 65;
+       int alphabet = 65;
         
         for (int i = 0; i <= 5; i++)
         {

@@ -4,21 +4,22 @@ public class pattern6
 {
     public static void main(String[] args) 
     {
-        char rows = 'F';
-            char till = rows;
-            char space = --rows;
-            for (char i='A';i<=till;i++) 
+        int alpha = 64;
+        int rows = 6;
+            int till = rows;
+            int space = --rows;
+            for (int i=1;i<=till;i++) 
             {
-                for (char k='A';k<=space;k++)
+                for (int k=1;k<=space;k++)
                 {
                     System.out.print(" ");
                 }
-                for (char j='A';j<=i;j++)
+                for (int j=1;j<=i;j++)
                 {
-                    System.out.print(j+" ");
+                    System.out.print((char)(j+alpha)+" ");
                 }
                 System.out.println();
-                space = --space;
+                space = space-1;
             }
     }
 }

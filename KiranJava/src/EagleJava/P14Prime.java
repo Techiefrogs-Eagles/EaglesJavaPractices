@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package EagleJava;import java.util.Scanner;
 
 public class P14Prime {
     public static void main(String[] args) {

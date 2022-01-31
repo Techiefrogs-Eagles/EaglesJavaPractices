@@ -1,4 +1,4 @@
-public class P17Pattern {
+package EagleJava;public class P17Pattern {
    public static void main(String[] args) {
         int rows = 4;
     

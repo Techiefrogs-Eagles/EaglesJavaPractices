@@ -1,11 +1,13 @@
+package Assignment3;
+
 public class Triangle {
     
    
  int p;
 double A;
-public int a;
-public int b;
-public int c;
+ int a;
+ int b;
+ int c;
 
 
     Triangle()
@@ -18,12 +20,12 @@ public int c;
      double b=4;
       double c=5;
      double p;
+     double A;
         Triangle perameter=new Triangle();
         perameter.p=(int) (a+b+c);
         
         System.out.println("print parameter");
-       System.out.println(perameter.p+"");
-double A;
+        System.out.println(perameter.p+"");
         Triangle area=new Triangle();
         System.out.println("area");
             p=(a+b+c)/2;

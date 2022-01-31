@@ -1,6 +1,7 @@
 package Assignment2;
 
 public class pattern4 {
+
     public static void main(String[] args) {
         
         for (int i = 5; i >= 0; i--)

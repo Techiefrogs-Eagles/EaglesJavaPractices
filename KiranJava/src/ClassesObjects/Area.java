@@ -1,3 +1,5 @@
+package ClassesObjects;
+
 import java.util.Scanner;
 public class Area {
     int length,breadth;

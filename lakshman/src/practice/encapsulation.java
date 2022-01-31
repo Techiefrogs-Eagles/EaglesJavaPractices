@@ -80,5 +80,6 @@ public class encapsulation
     public static void main(String[] args) 
     {
         encapsulation obj = new encapsulation();
+        System.out.println(obj.a);
     }
 }
