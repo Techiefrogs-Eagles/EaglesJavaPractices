@@ -2,7 +2,7 @@ package Assignment4;
 
 public class Employee extends Member{
     String Specialization="java";
-    String Development="Developer";
+    String Department="Developer";
     public static void main(String[] args) {
         Employee eobj=new Employee();
         eobj.Name="aaa";

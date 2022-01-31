@@ -2,7 +2,7 @@ package Assignment4;
 
 public class Manager extends Member {
 String Specialization="java";
-String Development="Prpgramer";
+String Department="Prpgramer";
     public static void main(String[] args) {
         
     
