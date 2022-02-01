@@ -1,4 +1,4 @@
-package Practice;
+package Assignments4;
 
 public class Member {
     String name,number,address;

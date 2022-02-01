@@ -1,4 +1,4 @@
-package Practice;
+package Assignments4;
 
 public class Rectangle{    
     int length,breadth;    
