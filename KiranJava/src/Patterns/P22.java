@@ -1,3 +1,5 @@
+package Patterns;
+
 public class P22 {
     public static void main(String[] args) {
         int row=5, i, j, space = row-1;
