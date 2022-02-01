@@ -1,6 +1,6 @@
-package practice;
+package practice.Inheritence;
 
-public class murthyGP 
+public class murthyGP
 {
     int money = 50000000;
     String asset1 = "car,bike";
