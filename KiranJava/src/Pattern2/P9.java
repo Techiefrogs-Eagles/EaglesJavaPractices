@@ -1,3 +1,5 @@
+package Pattern2;
+
 public class P9 {
     public static void main(String[] args)
     {

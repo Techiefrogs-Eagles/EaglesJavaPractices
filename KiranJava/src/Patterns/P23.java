@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 public class P23 {
 	public static void main(String[] args) {

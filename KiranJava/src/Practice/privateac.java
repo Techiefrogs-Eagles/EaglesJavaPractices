@@ -1,4 +1,4 @@
-//package Practice;
+package Practice;
 public class privateac {
     public static void main(String[] args) {
         A obj=new A();

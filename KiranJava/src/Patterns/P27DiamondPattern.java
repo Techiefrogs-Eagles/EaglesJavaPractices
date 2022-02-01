@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 public class P27DiamondPattern {
     public static void main(String args[])  
