@@ -6,7 +6,7 @@ public class Accessmodifier {
     
     
         }
-       private Accessmodifier(){
+       Accessmodifier(){
     }                                                                                                                                                     
     public static void main(String[] args) {
   Accessmodifier ac=new Accessmodifier();
