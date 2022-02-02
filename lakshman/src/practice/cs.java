@@ -1,3 +1,4 @@
+package practice;
 public class cs 
 {
     public static void main(String[] args) 

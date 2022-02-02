@@ -1,3 +1,4 @@
+package practice;
 public class variablepractice 
 {
     static boolean    a;

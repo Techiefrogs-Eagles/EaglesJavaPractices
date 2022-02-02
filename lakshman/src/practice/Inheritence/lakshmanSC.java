@@ -1,4 +1,4 @@
-package practice;
+package practice.Inheritence;
 
 public class lakshmanSC extends subrahmanyamPC 
 {

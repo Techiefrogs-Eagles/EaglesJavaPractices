@@ -1,3 +1,4 @@
+package practice;
 public class csloops 
 {
     public static void main(String[] args) 

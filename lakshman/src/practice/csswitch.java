@@ -1,3 +1,4 @@
+package practice;
 public class csswitch 
 {
     public static void main(String[] args) 
