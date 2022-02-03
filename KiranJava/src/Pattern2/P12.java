@@ -1,3 +1,5 @@
+package Pattern2;
+
 public class P12 {
     public static void main(String[] args) {
         for (int i = 0; i <= 5; i++)
