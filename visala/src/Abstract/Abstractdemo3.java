@@ -21,6 +21,8 @@ public class Abstractdemo3 extends Abstractdemo1{
         ab3.display1();
         ab3.newdisplay();
         ab3.finaldisplay();
+        ab3.sum(5, 10);
+        ab3.name("Hello");
         Abstractdemo.staticdisplay();
 
     }
