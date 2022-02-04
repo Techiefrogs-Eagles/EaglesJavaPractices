@@ -1,3 +1,5 @@
+package Abstractdemo;
+
 abstract public class ab2 extends ab1
  {
     void display()

@@ -1,3 +1,5 @@
+package Assignment6;
+
 public class Program2 {}
 
  abstract class Bank {

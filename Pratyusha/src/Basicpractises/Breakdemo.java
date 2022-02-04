@@ -1,4 +1,6 @@
 package Basicpractises;
+
+
 import java.util.Scanner;
 public class Breakdemo {
     public static void main(String[] args) {

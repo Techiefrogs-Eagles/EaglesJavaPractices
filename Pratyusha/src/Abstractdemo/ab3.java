@@ -1,3 +1,5 @@
+package Abstractdemo;
+
  abstract public class ab3 extends ab2
 {
     int k = 50;
