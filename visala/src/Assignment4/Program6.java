@@ -1,6 +1,6 @@
 package Assignment4;
 
-public class Programe6 {}
+public class Program6 {}
 
 class Shape
 {
