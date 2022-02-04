@@ -1,3 +1,5 @@
+package Assignment6;
+
 public class Program6 {}
 
  abstract class Shape{

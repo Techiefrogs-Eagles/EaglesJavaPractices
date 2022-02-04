@@ -1,3 +1,5 @@
+package Assignment6;
+
 public class Program5 {}
 
  abstract class  Animals{
