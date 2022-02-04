@@ -14,6 +14,11 @@ abstract  public class Abstractdemo {
     {
         System.out.println("This is new display ");
     }
+    String name(String a)
+    {
+        System.out.println(a);
+        return "java";
+    }
 
     final void finaldisplay()
     {
@@ -22,5 +27,16 @@ abstract  public class Abstractdemo {
     static void staticdisplay()
     {
         System.out.println("this is static display");
+    }
+    public static void main(String[] args) {
+        Abstractdemo abobj=new Abstractdemo()
+        {
+            void display()
+            {
+                System.out.println("This is abstract display");
+            }
+        
+        };
+        abobj.display();
     }
 }

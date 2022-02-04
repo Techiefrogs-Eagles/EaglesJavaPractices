@@ -2,10 +2,14 @@ package Abstract;
 
 public class Abstractdemo1 extends Abstractdemo {
 
-    
     void display() {
         System.out.println("This is abstract display");
     }
+  int sum(int a,int b)
+  {
+      System.out.println("Sum of a&b="+(a+b));
+      return 1;
+  }
   
     public static void main(String[] args) {
         Abstractdemo1 abobj=new Abstractdemo1();
@@ -14,6 +18,7 @@ public class Abstractdemo1 extends Abstractdemo {
         abobj.display();
         abobj.newdisplay();
         abobj.finaldisplay();
+        abobj.sum(3, 4);
         Abstractdemo.staticdisplay();
         
     }
