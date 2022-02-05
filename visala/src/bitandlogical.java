@@ -1,3 +1,5 @@
+package src;
+
     public class bitandlogical {
     public static void main(String[] args) throws Exception {
 

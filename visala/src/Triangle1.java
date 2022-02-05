@@ -1,3 +1,5 @@
+package src;
+
 public class Triangle1 {
     int a,b,c;
     public double getArea(){

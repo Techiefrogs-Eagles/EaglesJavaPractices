@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 public class scannerdemo {
     public static void main(String[] args) {

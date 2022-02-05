@@ -1,3 +1,5 @@
+package src;
+
 public class Accessmodifier {
   int i=36;
     void display()

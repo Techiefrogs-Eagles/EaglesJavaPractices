@@ -1,3 +1,5 @@
+package src;
+
 public class enhancement{
     public static void main(String[] args) {
         int age=20;

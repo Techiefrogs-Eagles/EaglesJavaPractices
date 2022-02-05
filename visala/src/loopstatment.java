@@ -1,4 +1,4 @@
-
+package src;
 
 public class loopstatment {
     public static void main(String[] args)  {
