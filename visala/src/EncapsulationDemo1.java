@@ -1,3 +1,5 @@
+package src;
+
 public class EncapsulationDemo1 {
 public static void main(String[] args) {
     EncapsulationDemo eobj=new EncapsulationDemo();

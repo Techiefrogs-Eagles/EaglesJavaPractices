@@ -1,3 +1,5 @@
+package src;
+
 public class Accessmodifier1 {
     int i=40;
    

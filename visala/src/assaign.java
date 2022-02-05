@@ -1,3 +1,5 @@
+package src;
+
 public class assaign{
     public  static void main(String[] args) throws Exception {
        int a = 6;

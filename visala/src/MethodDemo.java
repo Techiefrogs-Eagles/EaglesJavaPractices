@@ -1,3 +1,5 @@
+package src;
+
 public class MethodDemo {
    int a=15 ;
    int b=5;

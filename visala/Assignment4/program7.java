@@ -1,7 +1,5 @@
 package Assignment4;
 
-import Assignment1.multipulication;
-
 public class program7 {
     
 }

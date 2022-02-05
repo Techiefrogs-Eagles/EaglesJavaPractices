@@ -1,3 +1,5 @@
+package src;
+
 public class operators {
     public static void main(String[] args) throws Exception {
         int a =20;

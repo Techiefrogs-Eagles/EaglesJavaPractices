@@ -20,7 +20,7 @@ double A;
      double b=4;
       double c=5;
      double p;
-     double A;
+
         Triangle perameter=new Triangle();
         perameter.p=(int) (a+b+c);
         

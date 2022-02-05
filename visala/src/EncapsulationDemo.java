@@ -1,3 +1,5 @@
+package src;
+
 public class EncapsulationDemo {
    
     private int i=1;

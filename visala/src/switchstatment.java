@@ -1,3 +1,5 @@
+package src;
+
 public class switchstatment {
      public static void main(String[] args) {
          int marks =60;

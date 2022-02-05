@@ -1,3 +1,5 @@
+package src;
+
 public class constructor {
     int i=1;
         String name="Tarak";
