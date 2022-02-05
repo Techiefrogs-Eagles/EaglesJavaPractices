@@ -1,4 +1,6 @@
- public class Program9 { }
+package Assignment4;
+
+public class Program9 { }
 
 class purchaseitem {
     private String name;

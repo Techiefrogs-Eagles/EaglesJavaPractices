@@ -1,32 +1,30 @@
 package Assignment6;
 
-public class Program2 {}
+public class program2 {}
 
- abstract class Bank {
-
+abstract class Bank{
     abstract void getBalance();
-
 }
 
 class BankA extends Bank
 {
-  void getBalance(){
-      System.out.println("100$");
-  }
+    void getBalance(){
+        System.out.println("100$ Deposited in BankA");
+    }
 }
 
 class BankB extends Bank
 {
-void getBalance() {
-    System.out.println("150$");
- }
+    void getBalance(){
+        System.out.println("150$ Deposited in BankB");
+    }
 }
 
 class BankC extends Bank
 {
-void getBalance() {
-    System.out.println("200$");
-}
+    void getBalance(){
+        System.out.println("200$ Deposited in BankC");
+    }
 }
 
 class driverclass
@@ -40,9 +38,3 @@ class driverclass
         obj3.getBalance();
     }
 }
-
-
-
-    
-
-

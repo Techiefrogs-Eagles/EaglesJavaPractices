@@ -1,3 +1,5 @@
+package Assignment6;
+
 public class Program1 {}
 
 abstract class parent {

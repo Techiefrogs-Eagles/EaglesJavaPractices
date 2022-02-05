@@ -1,8 +1,11 @@
+package Switchcases;
+
 import java.util.Scanner;
 
 public class Numberofmonths {
    public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
+       sc.close();
 
        int daysinMonth = 0;
        String MonthName = "Invalid";

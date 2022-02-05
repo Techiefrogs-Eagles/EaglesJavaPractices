@@ -1,3 +1,5 @@
+package Abstractdemo;
+
 abstract public class ab1 
 {
 int k = 5;
