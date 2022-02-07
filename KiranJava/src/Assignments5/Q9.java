@@ -21,12 +21,14 @@ import java.util.Scanner;
            Scanner inp = new Scanner(System.in);
            String actype=inp.nextLine();
            String brtype=inp.nextLine();
+           inp.close();
            if(actype=="SAVINGS" && brtype=="METRO") {
                withLimit = 5000;
            }else {
                withLimit = 4000;
            }
        return withLimit;
+       
        }
       
        double setInterestRate() {
