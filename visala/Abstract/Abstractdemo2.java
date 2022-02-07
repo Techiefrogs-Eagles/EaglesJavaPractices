@@ -1,7 +1,5 @@
 package Abstract;
 
-import Abstract.Abstractdemo1;
-
 abstract public class Abstractdemo2 extends Abstractdemo1 {
  abstract  void displayA();
 

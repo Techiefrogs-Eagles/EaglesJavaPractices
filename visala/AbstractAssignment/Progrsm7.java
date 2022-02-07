@@ -8,7 +8,7 @@ abstract class Shape
     protected String colour="red";
     protected Boolean filed=true;
 
-    void Shape()
+  /*  void Shape()
     {
 
     }
@@ -16,5 +16,5 @@ abstract class Shape
     {
         
     }
-
+*/
 }
