@@ -11,13 +11,14 @@ public class pattern10
             {
                 till=till+i;
             }
-            char floyd = 'A'; 
+            int alpha = 64;
+            int floyd = 1; 
             for (int i = 1;i<=rows;i++)
             {
                 for (int j = 1;j<=i;j++)
                 {
-                    System.out.print(floyd+" ");
-                    floyd = ++floyd;
+                    System.out.print((char)(floyd+alpha)+" ");
+                    floyd = floyd+1;
                 }
                 System.out.println();
                 

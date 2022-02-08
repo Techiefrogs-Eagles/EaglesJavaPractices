@@ -1,3 +1,5 @@
+package Basicpractises;
+
 /*
     Accept length and breath of a rectangle and calculate area and perimeter?
     Enter Length and Breath : 4 5
@@ -15,6 +17,7 @@ public class Lengandbreathofarectangle {
         b = sc.nextFloat();
         a=l*b;
         p=2*(l+b);
+        sc.close();
         System.out.println("Area = "+a);
         System.out.println("Perimeter="+p);
     }

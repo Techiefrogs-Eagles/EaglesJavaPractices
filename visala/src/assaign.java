@@ -1,6 +1,6 @@
 public class assaign{
     public  static void main(String[] args) throws Exception {
-        int a = 6;
+       int a = 6;
         a = a+1;
         a += 1;
         System.out.println(a);

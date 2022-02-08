@@ -1,3 +1,5 @@
+package operatorspractise;
+
 public class Ternaryoperator {
     public static void main(String[] args) {
         int num = 90;

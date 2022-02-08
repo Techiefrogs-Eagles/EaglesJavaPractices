@@ -1,4 +1,4 @@
-public class P6Largest {
+package EagleJava;public class P6Largest {
     public static void main(String[] args) {
 
         int n1 = 4, n2 = 3, n3 = 2;

@@ -1,3 +1,4 @@
+package EagleJava;
 public class P3Swap {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package Assignment3;
+
 public class Student {
     int roll_no=2;
     String name="John";

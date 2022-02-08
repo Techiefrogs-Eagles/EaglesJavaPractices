@@ -1,3 +1,5 @@
+package Assignment3;
+
 public class ClassDemo {
   
  
@@ -10,19 +12,19 @@ public class ClassDemo {
 // testmethod();
  classobj.i= 1;
  classobj.name= "tarak";
- classobj.j=500;
+ ClassDemo.j=500;
  ClassDemo.testmethod();
- System.out. println(classobj.i+" "+classobj.name+" "+classobj.j);
+ System.out. println(classobj.i+" "+classobj.name+" "+ClassDemo.j);
  
 
 
  ClassDemo classobj1=new ClassDemo();
  classobj1.i=2;
  classobj1.name="Mokshitha";
- classobj1.j=500;
+ ClassDemo.j=500;
 
 // ClassDemo.testmethod();
- System.out.println(classobj1.i+" " +classobj1.name+ " "+classobj1.j);
+ System.out.println(classobj1.i+" " +classobj1.name+ " "+ClassDemo.j);
 
       
        

@@ -1,4 +1,4 @@
-public class P16Armstrong {
+package EagleJava;public class P16Armstrong {
     public static void main(String[] args) {
         int n=370,num,temp,t=0;
         num=n;

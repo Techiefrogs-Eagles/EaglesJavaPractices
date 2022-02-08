@@ -1,3 +1,5 @@
+package Assignment2;
+
 public class P11 {
     public static void main(String[] args) {
         int i,j,n=6,sum=0;

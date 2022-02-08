@@ -1,3 +1,5 @@
+package Assignment1;
+
 public class sumofnaturalnumforloop {
     public static void main(String[] args) {
         int num = 50, sum = 0;
