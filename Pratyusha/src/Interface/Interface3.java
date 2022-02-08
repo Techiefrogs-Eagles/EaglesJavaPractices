@@ -6,9 +6,9 @@ public interface Interface3
  
     String name = "Jony";
 
-    void display2();
+    void display3();
 
-    String display13();
+    String display33();
     
 
 }
