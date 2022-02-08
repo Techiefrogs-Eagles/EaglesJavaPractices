@@ -40,9 +40,9 @@ class Bank1
     public static void main(String[] args) {
         BankA BA=new BankA();
         BA.getBalance();
-        BankB BB=new BankB();
+        
         BA.getBalance();
-        BankC BC=new BankC();
+        
         BA.getBalance();
     }
 }
