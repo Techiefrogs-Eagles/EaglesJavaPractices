@@ -1,8 +1,10 @@
+package Practice;
+
 
 
 public class Encapsulation {
     private int i=20;
-    private String name="kk";
+    //private String name="kk";
     /*public int getI() {
         return i;
     }

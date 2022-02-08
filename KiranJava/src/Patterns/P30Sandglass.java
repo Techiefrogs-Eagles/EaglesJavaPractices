@@ -1,3 +1,5 @@
+package Patterns;
+
 //import java.util.Scanner;
 public class P30Sandglass {
     public static void main(String[] args) {

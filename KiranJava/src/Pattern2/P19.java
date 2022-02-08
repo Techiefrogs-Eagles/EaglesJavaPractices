@@ -1,3 +1,5 @@
+package Pattern2;
+
 public class P19 {
     public static void main(String[] args)
     {
