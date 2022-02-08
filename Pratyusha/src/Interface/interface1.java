@@ -5,7 +5,7 @@ public interface interface1
     int i = 30;
     String name = "Puppy";
 
-    void display();
+    void display1();
 
     String display11();
 
