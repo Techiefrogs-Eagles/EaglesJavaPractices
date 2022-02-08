@@ -4,8 +4,8 @@ package Practice;
 
 public class Encapsulation {
     private int i=20;
-    //private String name="kk";
-    /*public int getI() {
+    private String name="kk";
+    public int getI() {
         return i;
     }
     public void setI(int i) {
@@ -13,10 +13,10 @@ public class Encapsulation {
     }
     public String getName() {
         return name;
-    }a
+    }
     public void setName(String name) {
         this.name = name;
-    }*/
+    }
     public static void main(String[] args) {
         Encapsulation enc=new Encapsulation();
         //Encapsulation enc1=new Encapsulation(2);

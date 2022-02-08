@@ -1,4 +1,4 @@
-package assignment3;
+
 
 public class Employee {
        
@@ -9,7 +9,7 @@ public class Employee {
         
         System.out.println("Name  Year    Address");
         Employee employee1 = new Employee();
-        employee1.Name="Robet";
+        employee1.Name="mick";
         employee1.Year=1994;
         employee1.Address="64C-Wallstreet";
         System.out.println(employee1.Name+"  "+employee1.Year+"  "+employee1.Address);

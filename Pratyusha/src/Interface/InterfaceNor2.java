@@ -1,59 +1,56 @@
 package Interface;
 
- abstract public class InterfaceNor2 extends InterfaceNor1 {
+ public class InterfaceNor2 extends InterfaceNor1 {
+
+    
 
     
     public void display2() {
+               System.out.println("In Interface2 display2 ");
         
-        System.out.println("in inter3 display2 ");
+    }
+
+
+    public String display22() {
+             System.out.println("In Interface2 display22");
+        return " display22()";
     }
 
     
-    public String display3() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public void display() {
-        // TODO Auto-generated method stub
+    public void display1() {
+           System.out.println("In interface1 display1");
         
     }
 
-    @Override
-    public String display1() {
-        // TODO Auto-generated method stub
-        return null;
+    
+    public String display11() {
+        System.out.println("In interface1 display11");
+        return "display11()";
     }
 
-    @Override
-    public void display51() {
-        // TODO Auto-generated method stub
+    public void display5() {
+      System.out.println("In interface5 display5");
         
     }
 
-    @Override
-    public void String52() {
-        // TODO Auto-generated method stub
+    
+
+    public void display3() {
+       System.out.println("In interface3 display3");
         
     }
 
-    @Override
-    public void display41() {
-        // TODO Auto-generated method stub
-        
+
+    public String display33() {
+        System.out.println("In interface3 display33");
+        return "display33()";
     }
 
-    @Override
-    public void display32() {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
+    
     void displayN11() {
-        // TODO Auto-generated method stub
+        System.out.println("In interfaceNor1 displayN11");
         
     }
-    
-}
+
+
+ }
