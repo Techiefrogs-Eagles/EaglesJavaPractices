@@ -7,6 +7,7 @@ public class Inheritance {
     public static void main(String[] args) {
         Inheritance obj=new Inheritance();
         System.out.println(obj.number+" "+ obj.cent+" "+obj.name);
+        
     }
     void exam()
     {

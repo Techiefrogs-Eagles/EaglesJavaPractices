@@ -1,5 +1,6 @@
 package Practice.Interface;
 
-public interface interfa {
+abstract interface interfa {
     void display();
 }
+
