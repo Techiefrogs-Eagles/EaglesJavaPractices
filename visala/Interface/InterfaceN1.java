@@ -1,6 +1,6 @@
 package Interface;
 
-public class InterfaceN1 implements Interface1,Interface11{
+ public class InterfaceN1 implements Interface1,Interface11{
 
    
     public void display() {
