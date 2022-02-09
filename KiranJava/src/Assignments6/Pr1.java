@@ -10,6 +10,7 @@ public class Pr1 {
 }
 abstract class Parent{
     abstract void message();
+    
 }
 class sub1 extends Parent{
 
