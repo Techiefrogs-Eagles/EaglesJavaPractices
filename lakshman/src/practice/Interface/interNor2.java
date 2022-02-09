@@ -32,6 +32,10 @@ package practice.Interface;
     void displayN11() {
         System.out.println("in interNor1 displayN11");
     }
+
+    public void fan(){
+        System.out.println("in fan internor2");
+    }
     
 
 }

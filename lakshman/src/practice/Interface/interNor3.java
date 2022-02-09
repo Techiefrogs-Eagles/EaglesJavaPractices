@@ -1,8 +1,8 @@
 package practice.Interface;
 
-public class interNor3 extends interNor2 implements inter4 
+public class interNor3 extends interNor2 implements inter4
 {
-
+    
     public void display41() {
         System.out.println("in inter4 display41");
     }
@@ -14,6 +14,7 @@ public class interNor3 extends interNor2 implements inter4
     public static void main(String[] args) {
         
         interNor3 intobj = new interNor3();
+        //inter1 obj = new inter1();
         intobj.display11();
         intobj.display12();
         intobj.display21();
@@ -34,6 +35,5 @@ public class interNor3 extends interNor2 implements inter4
         System.out.println("name = "+inter3.name);
         System.out.println("name = "+inter4.name);
         System.out.println("name = "+inter5.name);
-        
     }
 }
