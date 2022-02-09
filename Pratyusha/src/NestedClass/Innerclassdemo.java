@@ -57,7 +57,7 @@ public class Innerclassdemo
         abstract class Outerclass2 
         {
             abstract void displayMonkey();
-            void main()
+            void dog()
             {
                 class Outerclass4 
                 {
@@ -82,7 +82,9 @@ public class Innerclassdemo
             }
             
         };
-        obj212.main();
+
+    
+
     }
 
     
@@ -95,7 +97,10 @@ public class Innerclassdemo
         }
         
     }
-}
+
+
+
+
     
 
 public static void main(String[] args) {

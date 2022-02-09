@@ -32,6 +32,35 @@ public class MethodLocalInnerClasses
               InnerClass1()
               {
                   System.out.println("This is a constructor method");
+                  interface InnerClass7
+                  {
+                      void display7();
+                      static void display8()
+                      {
+                          class InnerClass8
+                          {
+                              void display9()
+                              {
+                                  System.out.println("This is display9");
+                              }
+                          }
+                          InnerClass8 Inobj8 = new InnerClass8();
+                          Inobj8.display9();
+                      }
+                  }
+                  InnerClass7.display8();
+                  InnerClass7 Inobj7 = new InnerClass7() {
+
+                
+                    public void display7() {
+                        System.out.println("This is display10");
+                        
+                    }
+                      
+                    
+                  };
+                  Inobj7.display7();
+
                   abstract class Abstract1
                   {
                       abstract void Monkey();
