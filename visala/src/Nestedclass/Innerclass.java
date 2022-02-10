@@ -72,11 +72,9 @@ class Innerclass3
   class Innerclass5 extends Innerclass4
 
     {
-
-        
-        
+              
         void display5() {
-            System.out.println("This is Abstract class");
+        System.out.println("This is Abstract class");
 
             
         }
@@ -89,12 +87,14 @@ class Innerclass3
         Innerclass1 Inobj1=Inobj.new Innerclass1();
       Innerclass.Innerclass1.Innerclass2 Inobj2=Inobj1.new Innerclass2();
       Innerclass3 Inobj3=Inobj.new Innerclass3();
-      Innerclass3.Innerclass4 Inobj4=Inobj3.new Innerclass4() {
+      Innerclass3.Innerclass4 Inobj4=Inobj3.new Innerclass4()
+       {
 
-        void display5() {
+        void display5() 
+         {
             System.out.println("This is abstract method");
 
-        }
+         }
           
       };
       Innerclass.Innerclass3.Innerclass5 Inobj5=Inobj3.new Innerclass5();
