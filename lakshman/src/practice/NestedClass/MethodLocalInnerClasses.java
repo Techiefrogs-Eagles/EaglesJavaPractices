@@ -7,16 +7,19 @@ public class MethodLocalInnerClasses
     void hello1()
     {
         System.out.println("in hello 1");
-        class MethodLocalInnerClasses1
+        final class MethodLocalInnerClasses1
         {
             static void hello2()
             {
                 System.out.println("in hello 2");
                 abstract class MethodLocalInnerClasses2
                 {
+
                     abstract void hello6();
+                    
                     void hello3()
                     {
+                    
                         System.out.println("in hello 3");
                         final class MethodLocalInnerClasses5
                         {
