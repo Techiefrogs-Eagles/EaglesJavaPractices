@@ -24,7 +24,7 @@ public class Innerclassdemo
        private void display2()
        {
            System.out.println("Display private method");
-       }
+        }
        private Innerclassdemo1()
        {
             System.out.println("This is a private constructor ");
@@ -57,7 +57,7 @@ public class Innerclassdemo
         abstract class Outerclass2 
         {
             abstract void displayMonkey();
-            void dog()
+            void main()
             {
                 class Outerclass4 
                 {
@@ -70,21 +70,6 @@ public class Innerclassdemo
                 outobj4.Monkey();
             }
         }        
-    
-        Outerclass2 obj212 = new Outerclass2() 
-        {
-
-        
-            void displayMonkey() 
-            {
-                 System.out.println("This is a normal method in abstract class");
-                
-            }
-            
-        };
-
-    
-
     }
 
     
@@ -97,9 +82,6 @@ public class Innerclassdemo
         }
         
     }
-
-
-
 
     
 
@@ -118,7 +100,8 @@ public static void main(String[] args) {
         }
     
     };
-    Innerclassdemo.Outerclass1.Outerclass3 outobj3=outobj.new Outerclass3();
+    //Innerclassdemo.Outerclass1.Outerclass3 outobj3=outobj.new Outerclass3();
+    outobj2.main();
         
 
 
@@ -134,15 +117,7 @@ public static void main(String[] args) {
     inobj2.display3();
     outobj.basicmethod();
     outobj2.displayMonkey();
-    outobj3.displayMonkey();
-
-
-    
-       }
+    //outobj3.displayMonkey();
 }
-
-
-   
-
+}
     
-

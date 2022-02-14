@@ -70,12 +70,12 @@ public class InnerClasses
             {
                 System.out.println("in normal method 4");
             }
-        
+            
             InnerClasses4()
             {
                 System.out.println("in constructor InnerClasses");
             }
-
+            
             abstract class InnerClasses5
             {
                 abstract void normalMethod5();
