@@ -12,7 +12,6 @@ public class samuel {
         class pratyusha{
            static String asset1 = "car";
            String asset3 = "bike";
-
         }
     }
     public static void main(String[] args) {
