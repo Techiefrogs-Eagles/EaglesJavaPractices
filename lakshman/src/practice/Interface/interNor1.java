@@ -1,6 +1,6 @@
 package practice.Interface;
 
-abstract public class interNor1 implements inter2,inter5
+abstract public class interNor1 implements inter2,inter5,staticandDefault4
 {
     int a = 100;
     String name = "bhaskar";
@@ -10,5 +10,7 @@ abstract public class interNor1 implements inter2,inter5
     void displayN12(){
         System.out.println("in interNor1 displayN12");
     }
+
+    
     
 }

@@ -1,8 +1,8 @@
 package seperatepackage;
 
-import Assignment7.program3;
+//import Assignment7.program3;
 
-public class program3_1 implements program3{
+public class program3_1 implements Assignment7.program3{
 
     public void method1() {
         System.out.println("in method 1");  
