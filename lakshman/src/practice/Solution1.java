@@ -1,10 +1,10 @@
 package practice;
 
-import java.io.*;
+
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
+
+
 
 public class Solution1 {
 
@@ -15,6 +15,7 @@ public class Solution1 {
             String a = scan.nextLine();
             System.out.println(countw+" "+a);
             countw++;
+            scan.close();
         }
     }
 }
