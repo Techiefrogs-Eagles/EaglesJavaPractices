@@ -1,6 +1,13 @@
 package src.Practice1;
 
-public class StringBulderDemo {
+public class StringBuilderDemo {
+  
+    int n=36;
+    String name="  siva";
+    public String toString() {
+        
+        return n+name;
+    }
     public static void main(String[] args) {
         StringBuilder str=new StringBuilder();
         str.append("hello good morning mokshitha");
@@ -19,5 +26,12 @@ public class StringBulderDemo {
         str2.ensureCapacity(30);
         str2.ensureCapacity(50);
         System.out.println(str2.capacity());
+
+        StringBuilderDemo obj=new StringBuilderDemo();
+        System.out.println(obj.toString());
+        System.out.println(obj);
+            
+        }
+       
     }
-}
+
