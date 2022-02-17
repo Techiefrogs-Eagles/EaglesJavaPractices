@@ -1,3 +1,4 @@
+package BasicPractises;
 public class ComparisonOperator {
      public static void main(String[] args) {
         int x = 20;
