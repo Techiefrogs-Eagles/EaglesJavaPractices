@@ -1,8 +1,8 @@
-package StringsAssignment;
+package Assignments8;
 
 import java.util.Scanner;
 
-public class Count {
+public class Pr1 {
     public static void main(String[] args) {
         
     

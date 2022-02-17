@@ -1,4 +1,4 @@
-package StringsAssignment;
+package Assignments8;
 
 import java.util.Scanner;
 
