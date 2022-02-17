@@ -1,4 +1,4 @@
-package StringsAssignment;
+package Assignments8;
 
 public class Pr33 {
     public static void main(String[] args) 
