@@ -1,11 +1,19 @@
+
 package BasicPractises;
 
 public class StringDemo {
-    String str = "123@^abc";
+   
 
     public static void main(String[]args){
         StringDemo sObj = new StringDemo();
-        System.out.println(sObj.str);
+
+        String str = "123@^abc";
+
+        str.concat("hello eagles");
+
+        //sObj.str = "Hello Eagles";
+        
+        System.out.println(str);
     }
     
 }
