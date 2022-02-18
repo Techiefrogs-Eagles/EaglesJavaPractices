@@ -4,7 +4,7 @@
         protected abstract void m1();
         }
          class B extends A {
-         void m1(){
+         protected void m1() {
           System.out.println("One");	 
          }
         }
