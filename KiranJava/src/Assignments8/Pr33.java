@@ -19,5 +19,10 @@ public class Pr33 {
         {
             System.out.println("given string is not a palindrome");
         }
+        
+System.out.println(n);
     }
 }
+
+
+
