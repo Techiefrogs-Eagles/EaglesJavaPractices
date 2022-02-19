@@ -67,7 +67,9 @@ public class Arraysdemo
        }
 
        int array4[] = new int[5];
+
        Scanner scan = new Scanner(System.in);
+
        for(int i = 0 ; i < array4.length ; i++)
        {
             array4[i] = scan.nextInt();
@@ -88,7 +90,7 @@ public class Arraysdemo
 
        }
 
-       boolean array6[] = new boolean[3];
+         boolean array6[] = new boolean[3];
 
        for ( int i = 0 ; i < array6.length; i++)
        {
@@ -100,6 +102,13 @@ public class Arraysdemo
           System.out.println(array6[j]+" ");
        }
          System.out.println();
+
          scan.close();
+         
+         int array7[] = {1,2,3,4,5,6};
+         for(int i : array7)
+         {
+             System.out.print(i+" ");
+         }
      }
 }
