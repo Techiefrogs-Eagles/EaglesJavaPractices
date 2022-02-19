@@ -11,7 +11,7 @@ public class Pr8 {
         }  
       }
     public static void main(String[] args) {
-        String str ="1234";
+        String str ="123sf4";
         System.out.println(isNumeric(str));
     } 
 }
