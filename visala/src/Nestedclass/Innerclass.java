@@ -1,6 +1,7 @@
 package src.Nestedclass;
 
-public class Innerclass {
+public class Innerclass 
+{
     
     int a=10;
     String n="Java";
@@ -62,16 +63,18 @@ class Innerclass3
     abstract class Innerclass4
     {
         abstract void display5();
+        void display6()
+        {
+            System.out.println("This is normal method in abstract class");
+        }
       
     }
-   class Innerclass5 extends Innerclass4
+  class Innerclass5 extends Innerclass4
 
     {
-
-        
-        
+              
         void display5() {
-            System.out.println("This is Abstract class");
+        System.out.println("This is Abstract class");
 
             
         }
@@ -84,19 +87,22 @@ class Innerclass3
         Innerclass1 Inobj1=Inobj.new Innerclass1();
       Innerclass.Innerclass1.Innerclass2 Inobj2=Inobj1.new Innerclass2();
       Innerclass3 Inobj3=Inobj.new Innerclass3();
-      Innerclass3.Innerclass4 Inobj4=Inobj3.new Innerclass4() {
-      Innerclass.Innerclass3.Innerclass5 Inobj5=Inobj3.new Innerclass5();
+      Innerclass3.Innerclass4 Inobj4=Inobj3.new Innerclass4()
+       {
 
-        void display5() {
+        void display5() 
+         {
             System.out.println("This is abstract method");
 
-        }
+         }
           
       };
+      Innerclass.Innerclass3.Innerclass5 Inobj5=Inobj3.new Innerclass5();
+ 
       System.out.println(Inobj.a);
       System.out.println(Inobj.n);
       Inobj.display();
-    Innerclass.display1();
+      Innerclass.display1();
       System.out.println(Inobj1.b);
       System.out.println(Inobj1.d);
       Inobj1.display2();
@@ -104,10 +110,9 @@ class Innerclass3
       System.out.println(Inobj2.b1);
       Inobj2.display3();
       Inobj3.Display4();
-
-     Inobj4.display5();
-     Inobj5.display5();
-
+      Inobj4.display5();
+      Inobj5.display5();
+      Inobj4.display6();
     }
    
 }
