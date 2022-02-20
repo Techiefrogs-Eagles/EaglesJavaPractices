@@ -1,8 +1,7 @@
-package src.StringAssignment;
+package src.ArrayAssignment;
 
-public class Program3 {
+public class Program7 {
     public static void main(String[] args) {
         
     }
-    
 }
