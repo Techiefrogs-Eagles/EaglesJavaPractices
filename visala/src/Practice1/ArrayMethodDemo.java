@@ -14,8 +14,8 @@ public class ArrayMethodDemo {
       }
       System.out.println();
 
-     String sarr[]={"a","b","c","d","e"};
-     String sarr1[]=Aobj.method1(sarr);
+    // String sarr[]={"a","b","c","d","e"};           //declaration ,instaintiation,inisilazation 
+     String sarr1[]=Aobj.method1(new String[]{"a","b","c","d","e"});   //anonymous way
      for (String s : sarr1)
       {
          System.out.print(s+" ");
