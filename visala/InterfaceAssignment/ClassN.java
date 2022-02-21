@@ -18,7 +18,7 @@ public class ClassN implements Interface1
     public static void main(String[] args) {
         ClassN Cobj=new ClassN();
        Cobj.display();
-    InterfaceAssignment.ClassN.ClassN1 Cobj
+   // InterfaceAssignment.ClassN.ClassN1 Cobj
     }
    
     

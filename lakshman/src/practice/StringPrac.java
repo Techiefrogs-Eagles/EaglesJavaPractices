@@ -68,6 +68,7 @@ public class StringPrac
 
         
         System.out.println(obj.k.equalsIgnoreCase(s));
+         System.out.println(str6.substring(0, 4));
 
 
     }

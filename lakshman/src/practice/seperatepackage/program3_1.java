@@ -1,4 +1,4 @@
-package seperatepackage;
+package practice.seperatepackage;
 
 //import Assignment7.program3;
 
