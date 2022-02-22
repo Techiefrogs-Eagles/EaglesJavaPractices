@@ -1,6 +1,8 @@
 package src.Practice1;
 import java.util.*;
 
+import javax.sql.rowset.spi.SyncResolver;
+
 public class ArrayDemo {
     
     public static void main(String[] args) {
@@ -108,6 +110,7 @@ public class ArrayDemo {
         
              System.out.println();
              
-
+System.out.println(arr2.getClass().getName());
     }
+  
 }
