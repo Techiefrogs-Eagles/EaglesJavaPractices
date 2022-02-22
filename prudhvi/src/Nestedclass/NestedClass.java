@@ -1,3 +1,5 @@
+package Nestedclass;
+
 public class NestedClass {
     int i = 10;
     String name = "john";
