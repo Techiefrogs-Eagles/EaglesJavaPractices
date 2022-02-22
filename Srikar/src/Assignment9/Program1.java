@@ -1,11 +1,10 @@
 package Assignment9;
 
 public class Program1 
-    
 {
     public static void main(String[] args) 
     { 
-        int array1[] = {9,1,6,0,1,4,3,4,3,4};
+        int array1[] = {1,2,3,4,5,4,3,2,1};
         int array2[] = array1;
 
         for(int i : array2)
