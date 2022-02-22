@@ -110,5 +110,7 @@ public class Arraysdemo
          {
              System.out.print(i+" ");
          }
+
+         System.out.println(array.getClass().getName());
      }
 }
