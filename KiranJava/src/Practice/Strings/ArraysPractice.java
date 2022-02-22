@@ -19,6 +19,8 @@ public class ArraysPractice {
          arr[2][2] = 3;
     
          int[][] arr1 = {{1,2,3},{4,5,6},{7,8,9}};
+         Class c=arr1.getClass();
+         System.out.println(c.getName());
     
          for(int i = 0;i<arr1.length;i++)
          {
@@ -28,5 +30,6 @@ public class ArraysPractice {
             }
             System.out.println();
          }
+         
         }
 }
