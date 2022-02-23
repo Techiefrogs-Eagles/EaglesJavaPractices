@@ -6,8 +6,8 @@ public class Program41
     {
         char c[] = {'A','B','C','D'};
         char c1[] = {'E','F','G','H','I'};
-        int a = c.length;
-        int b = c1.length;
+       // int a = c.length;
+        //int b = c1.length;
 
         char[] c2 = new char[c.length+c1.length];
          char temp = 0;
