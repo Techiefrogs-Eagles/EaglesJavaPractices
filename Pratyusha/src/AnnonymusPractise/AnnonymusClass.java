@@ -6,12 +6,13 @@ package AnnonymusPractise;
 
  {
       static int i = 10;
-    //void meth1();
+    
 
 
      public static void main(String[] args) {
 
-         Annonymus1 anyobj = new Annonymus1() {
+         Annonymus1 anyobj = new Annonymus1() 
+         {
           
             
             public void meth1() 
@@ -23,9 +24,10 @@ package AnnonymusPractise;
          };
          System.out.println(i);
      }
+    }
     
      
- }
+ 
  class A 
  {
    int a = 10;
