@@ -4,7 +4,7 @@ public class MultiDimArrayDemo {
     public static void main(String[] args) {
 
 
-        int arr[][] = new int[3][3];
+        int arr[][] = new int3[][];
     
          arr[0][0] = 1;
          arr[0][1] = 1;
