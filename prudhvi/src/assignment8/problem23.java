@@ -1,8 +1,8 @@
 package assignment8;
 
-public class problem29 {
+public class problem23 {
     public static void main(String[] args) {
-        int arr[][] = {{1,0,0},{0,1,0},{0,0,1}};
+        int arr[][] = {{1,0,0},{0,1,1},{0,0,1}};
         int rows,col;
         Boolean flag =true;
         rows =arr.length;
