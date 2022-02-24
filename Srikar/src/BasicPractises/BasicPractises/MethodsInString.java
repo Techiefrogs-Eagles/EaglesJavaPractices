@@ -26,6 +26,7 @@ public class MethodsInString {
       System.out.println(str.lastIndexOf("H"));
 
      System.out.println(str.compareTo("Hello"));
+     
 
 
 
