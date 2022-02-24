@@ -1,5 +1,7 @@
 package Practice.Strings;
 
+import java.util.Arrays;
+
 public class CopyingArray {
     public static void main(String[] args) {
         char[] copyFrom={'a','c','d'};
@@ -10,6 +12,7 @@ public class CopyingArray {
         for (char i : carr) {
             System.out.print(i);
         }
-        System.out.println(copyFrom==carr);
+        System.out.println(copyFrom);
+        
     }
 }
