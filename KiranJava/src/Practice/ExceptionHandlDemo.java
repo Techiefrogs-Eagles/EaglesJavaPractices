@@ -51,7 +51,7 @@ public class ExceptionHandlDemo {
 
 
         }
-        ExceptionHandlingDemo.throw_method();
+        ExceptionHandlDemo.throw_method();
    } 
    static void throw_method(){
        ArrayIndexOutOfBoundsException ax = new ArrayIndexOutOfBoundsException("123");
