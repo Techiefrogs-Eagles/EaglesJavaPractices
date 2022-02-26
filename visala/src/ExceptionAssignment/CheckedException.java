@@ -1,15 +1,8 @@
 package src.ExceptionAssignment;
 
+import java.io.IOException;
 
-    
-public class CheckedException extends Exception {
-    public CheckedException(String s){
-        super(s);
-        
-     }
-     
- }
- class SubClass
+public class CheckedException
  {
     static void Method() 
     {
@@ -17,9 +10,9 @@ public class CheckedException extends Exception {
         try
         {
             
-            throw new CheckedException("Hello");
+            throw new IOException("Hello");
         }
-           catch(CheckedException cu)
+           catch(IOException cu)
         {
             System.out.println("Exception cleared");
             System.out.println(cu.getMessage());
@@ -28,7 +21,7 @@ public class CheckedException extends Exception {
 
         public static void main(String[] args) {
 
-            SubClass.Method();
+            CheckedException.Method();
         }
  }
 

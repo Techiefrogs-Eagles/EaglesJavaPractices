@@ -18,14 +18,20 @@ public class Program8 {
     public static void main(String[] args) {
         try{
             sum(10,20,30);
-           sum(10,0);
-           
-           
+            
+        
 
         }catch(ArithmeticException ae){
 
         
         System.out.println(ae);
+    }
+    try{
+        sum(10,0);
+    }catch(ArithmeticException ax)
+    {
+        sum(10,2);
+      
     }
 }
 }

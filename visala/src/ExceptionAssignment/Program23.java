@@ -1,31 +1,30 @@
 package src.ExceptionAssignment;
 
-import Assignment1.character;
+import Assignment1.multipulication;
 
-public class Program10 {
+public class Program23 {
     public static void main(String[] args) {
-        int a=20;
-        int b=0;
-        int arr[]={1,2,3};
+        int a = 10;
+        int b = 5;
+        int arr[] = { 1,2,3,4,5 };
         
         try
         {
-        
+            System.out.println("in try");
             System.out.println(a/b);
             System.out.println(arr[3]);
         }
         catch(ArithmeticException s)
         {
-            b=2;
-            System.out.println(a/b);
-        }
-        catch(NumberFormatException ne)
-        {
-            System.out.println("hello");
+            System.out.println();
         }
         catch(Exception e)
         {
             System.out.println(arr[arr.length-1]);
         }
-}
+        finally
+        {
+            System.out.println("in finally");
+        }
+    }
 }

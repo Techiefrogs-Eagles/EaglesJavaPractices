@@ -8,14 +8,18 @@ public class Program11 {
   
   try
   {
-      
+    System.out.println(arr[5]);
       System.out.println(a/b);
-      System.out.println(arr[3]);
+     
   }
   catch(ArithmeticException s)
   {
     System.out.println(a/b);
       System.out.println();
+  }
+  catch(ArrayIndexOutOfBoundsException ae)
+  {
+    System.out.println(arr[3]);
   }
   catch(Exception e)
   {
