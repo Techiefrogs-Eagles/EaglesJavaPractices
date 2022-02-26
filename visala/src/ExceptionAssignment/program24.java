@@ -1,6 +1,6 @@
-package src.Practice1;
+package src.ExceptionAssignment;
 
-public class ExceptionHandlingDemo {
+public class program24 {
     public static void main(String[] args) {
         int a = 10;
         int b = 5;
@@ -52,11 +52,5 @@ public class ExceptionHandlingDemo {
             
             
         }
-        ExceptionHandlingDemo.throw_method();
-   } 
-   static void throw_method(){
-       ArrayIndexOutOfBoundsException ax = new ArrayIndexOutOfBoundsException("123");
-       throw ax;
+    }
 }
-}
-
