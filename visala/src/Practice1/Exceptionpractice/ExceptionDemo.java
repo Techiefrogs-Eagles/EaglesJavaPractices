@@ -1,6 +1,4 @@
-package src.Practice1;
-
-
+package src.Practice1.Exceptionpractice;
 
 public class ExceptionDemo {
     public static void main(String[] args) throws Exception
@@ -53,26 +51,27 @@ System.out.println("Egals");*/
 
 //ARRAY INDEX OUT OF BOUND EXCEPTION
 
-     /*   int a[]={1,2,3,4};
+      int a[]={1,2,3,4};
         try{
             System.out.println(a[5]);
           }catch(ArrayIndexOutOfBoundsException A)
             {
-              System.out.println(a[3]);
+              System.out.println(a[5]);
    
-            }*/
+            }
 
 
 //String INDEX OUT OF BOUND EXCEPTION
 
-     String strr="Good";
+    /* String strr="Good";
      try{
          System.out.println(strr.charAt(5));
      }catch(StringIndexOutOfBoundsException S)
      {
         System.out.println(strr.charAt(3));
      }
-    }
+    }*/
    
     
+}
 }

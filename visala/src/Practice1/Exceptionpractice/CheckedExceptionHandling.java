@@ -1,4 +1,6 @@
-package src.Practice1;
+package src.Practice1.Exceptionpractice;
+
+
 
 public class CheckedExceptionHandling extends Exception {
    public CheckedExceptionHandling(String s){
@@ -9,8 +11,8 @@ public class CheckedExceptionHandling extends Exception {
 }
 
 class Driverclass{
-
-       /* static void Method() throws CheckedExceptionHandling
+/*
+        static void Method() throws CheckedExceptionHandling
         {
             throw new CheckedExceptionHandling("Hello");
         }
@@ -26,7 +28,7 @@ class Driverclass{
                System.out.println(cu.getMessage());
            }
         }*/
-        static void Method() 
+       static void Method() 
         {
         
             try

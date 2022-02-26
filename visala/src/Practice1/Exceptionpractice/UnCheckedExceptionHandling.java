@@ -1,4 +1,4 @@
-package src.Practice1;
+package src.Practice1.Exceptionpractice;
 
 public class UnCheckedExceptionHandling extends RuntimeException{
     public UnCheckedExceptionHandling(String s){
