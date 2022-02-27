@@ -1,6 +1,6 @@
 package practice;
 
-public class practiceAC {
+public abstract class practiceAC {
     static int a= 10;
     static void hello(){
         System.out.println("in static method");
@@ -11,7 +11,7 @@ public class practiceAC {
         System.out.println(a);
     }
 
-    //abstract void method1();
+    abstract void method1();
     public static void main(String[] args) 
     {
         practiceAC obj = new practiceAC()
@@ -25,5 +25,6 @@ public class practiceAC {
         };
         System.out.println(a);
         practiceAC.hello();
+        obj.method1();
     }
 }
