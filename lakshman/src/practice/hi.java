@@ -1,4 +1,7 @@
 package practice;
+
+import java.io.IOException;
+
 public class hi {
     public static void main(String[] args) {   }
  }
@@ -10,6 +13,8 @@ class A {
 
         }
          void msg(){System.out.println("Hello java");}
+        public static void initCause(IOException ioException) {
+        }
         }  
   
     
