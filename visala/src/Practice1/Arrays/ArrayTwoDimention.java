@@ -1,4 +1,4 @@
-package src.Practice1;
+package src.Practice1.Arrays;
 
 public class ArrayTwoDimention {
 
