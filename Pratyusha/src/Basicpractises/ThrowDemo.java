@@ -27,7 +27,7 @@ public class ThrowDemo
     }
        
 }
- class A
+ class A1
  {
      public static void main(String[] args)
      {

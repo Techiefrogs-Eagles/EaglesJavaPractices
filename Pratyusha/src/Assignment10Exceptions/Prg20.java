@@ -6,6 +6,7 @@ public class Prg20
         String str="ABC";
       try{
           int a1=Integer.parseInt(str);
+          System.out.println(a1);
       }catch(NumberFormatException n1)
       {
           str="123";
