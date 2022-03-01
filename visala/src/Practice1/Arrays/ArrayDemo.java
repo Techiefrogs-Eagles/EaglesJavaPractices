@@ -1,7 +1,5 @@
-package src.Practice1;
+package src.Practice1.Arrays;
 import java.util.*;
-
-import javax.sql.rowset.spi.SyncResolver;
 
 public class ArrayDemo {
     
