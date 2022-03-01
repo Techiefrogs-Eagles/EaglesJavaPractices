@@ -1,12 +1,19 @@
-package src.Practice1;
+package src.Practice1.Strings;
 
-public class StringBufferDemo {
+public class StringBuilderDemo {
+  
+    int n=36;
+    String name="  siva";
+    public String toString() {
+        
+        return n+name;
+    }
     public static void main(String[] args) {
-        StringBuffer str=new StringBuffer();
+        StringBuilder str=new StringBuilder();
         str.append("hello good morning mokshitha");
         System.out.println(str+" "+str.length()+" "+str.capacity());
 
-        StringBuffer str1=new StringBuffer(20);
+        StringBuilder str1=new StringBuilder(20);
         str1.append("Good evening");
         System.out.println(str1+" "+ str1.length()+" "+str1.capacity());
         str1.insert(0, "Hi ");
@@ -15,11 +22,16 @@ public class StringBufferDemo {
         System.out.println(str1+" "+str1.length()+" "+str1.capacity());
         str1.reverse();
         System.out.println(str1);
-        StringBuffer str2=new StringBuffer();
+        StringBuilder str2=new StringBuilder();
         str2.ensureCapacity(30);
         str2.ensureCapacity(50);
         System.out.println(str2.capacity());
 
-
+        StringBuilderDemo obj=new StringBuilderDemo();
+        System.out.println(obj.toString());
+        System.out.println(obj);
+            
+        }
+       
     }
-}
+
