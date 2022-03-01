@@ -27,9 +27,9 @@ System.out.println("This is static method");
        private  void display2()
         {
            System.out.println("This is Private method");
-           Innerclass Inobj=new Innerclass();
-           Innerclass1 Inobj1=new Innerclass1();
-           Innerclass2 Inobj2=new Innerclass2();
+          // Innerclass Inobj=new Innerclass();
+           //Innerclass1 Inobj1=new Innerclass1();
+           //Innerclass2 Inobj2=new Innerclass2();
         }
        private Innerclass1()
         {

@@ -2,9 +2,9 @@ package src.Practice1.Exceptionpractice;
 
 import java.io.IOException;
 
-class Driverclass extends IOException
+class Driverclass1 extends IOException
 {
-    Driverclass(String s)
+    Driverclass1(String s)
     {
         super(s);
     }

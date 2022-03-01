@@ -22,8 +22,8 @@ public class ConstructorChaining {
     public static void main(String[] args) {
         
     
-    ConstructorChaining Cobj=new ConstructorChaining();
-
+   // ConstructorChaining Cobj=new ConstructorChaining();
+        
     }
 }
 

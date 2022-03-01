@@ -26,7 +26,7 @@ public class Constructordemo1234 {
 
    }
     public static void main(String[] args) {
-        Constructordemo1234 CDobj=new Constructordemo1234();
+        //Constructordemo1234 CDobj=new Constructordemo1234();
         //Constructordemo1234 CDobj1=new Constructordemo1234(1,"aaa");
 
    // System.out.println( CDobj1.name);
