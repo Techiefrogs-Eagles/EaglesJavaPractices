@@ -6,7 +6,8 @@ public class Program5 {
     public static void main (String args[]) { 
         try {
            throw new IOException("Hello Good Morning");
-        } catch (Exception e) {
+        } catch (Exception e) 
+        {
            System.out.println(e.getMessage());
         }
      }

@@ -30,9 +30,7 @@ public class ArrayDemo1 {
     System.out.println(array[i]);
     }
     
-    for (int SteveJobs : array) {     //for each method is for to print all the values at a time.
-        System.out.println(SteveJobs);
-    }
+    
     
        }    
     }
