@@ -85,6 +85,14 @@ public class DownCasting {
         else{
             System.out.println("No");
         }
+        if(Gobj instanceof Childclass1)
+        {
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+
 
     }
 }

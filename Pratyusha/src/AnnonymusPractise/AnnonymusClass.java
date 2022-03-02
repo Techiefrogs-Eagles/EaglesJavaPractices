@@ -11,11 +11,11 @@ package AnnonymusPractise;
 
      public static void main(String[] args) {
 
-         Annonymus1 anyobj = new Annonymus1() 
+        // Annonymus1 anyobj = new Annonymus1() 
          {
           
             
-            public void meth1() 
+           //public void meth1() 
             {
                 System.out.println("This is a Annonimus Method");
                 
