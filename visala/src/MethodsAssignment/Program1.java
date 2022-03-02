@@ -4,7 +4,7 @@ public class Program1
 {
 }
 
-class PrintNumber {
+class PrintNumber2 {
     int print(int a){
         System.out.println(a);
         return a;
@@ -25,7 +25,7 @@ class PrintNumber {
 
 public static void main(String[] args) {
       
-PrintNumber a = new PrintNumber ();
+PrintNumber2 a = new PrintNumber2 ();
 a.print(10);
 a.print(10.33);
 a.print(0.2221);
