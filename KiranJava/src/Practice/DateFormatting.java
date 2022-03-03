@@ -20,5 +20,6 @@ public class DateFormatting {
      } catch (Exception e) {
         System.out.println("Got an exception!"); 
      }
+     System.out.printf("%1$s %2$tB %2$td, %2$tY", "Due date:", d);
    } 
 }
