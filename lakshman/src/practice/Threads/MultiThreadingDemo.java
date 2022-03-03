@@ -1,4 +1,4 @@
-package practice.Miscellaneous;
+package practice.Threads;
 
 public class MultiThreadingDemo implements Runnable
 {
@@ -49,9 +49,9 @@ class Hello extends Thread
     public static void main(String[] args) 
     {
         Hello obj = new Hello();
+        Hello obj1 = new Hello();
         obj.start();
-        Thread tobj = new Thread();
-        tobj.start();
+        obj1.start();
     }
 
     public void run()
