@@ -34,7 +34,6 @@ public class JavaConvesion {
         System.out.println(s2); 
         System.out.println();
         
-
         //String to long
          String Sl="123456789111";
         long l=Long.parseLong(Sl);  //String to long
@@ -47,9 +46,6 @@ public class JavaConvesion {
         String S3=String.valueOf(L);
         System.out.println(S3);
         System.out.println();
-
-
-
  
          //String to float
 
@@ -85,15 +81,6 @@ public class JavaConvesion {
               System.out.println(C);
              
          }
-          
-         //Char to String
-
-         char c='A';
-
-
-        
-
-        
     }
     
 }
