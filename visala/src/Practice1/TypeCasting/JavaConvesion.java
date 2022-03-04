@@ -1,6 +1,6 @@
 package src.Practice1.TypeCasting;
 
-public class JavaConvesation {
+public class JavaConvesion {
     public static void main(String[] args) {
 
         //String to integer
@@ -85,7 +85,10 @@ public class JavaConvesation {
               System.out.println(C);
              
          }
+          
+         //Char to String
 
+         char c='A';
 
 
         
