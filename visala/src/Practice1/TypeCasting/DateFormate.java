@@ -2,37 +2,60 @@ package src.Practice1.TypeCasting;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.util.Date;
 
 public class DateFormate {
     public static void main(String[] args) { 
-              
-        LocalDate L=LocalDate.now();
-        System.out.println(L);
-        LocalDate yesteeDate=L.minusDays(2);
-        System.out.println(yesteeDate);
-        LocalDate tomarrDate=L.plusDays(5);
-        System.out.println(tomarrDate);
+       //LOCAL DATE FORMATE
+       
+        LocalDate date = LocalDate.now();  // LocalDate of present
+        System.out.println(date);
 
+        LocalDate d1 = date.minusDays(1);
+        System.out.println("The Days after Minus  Are : " + d1);  // Local date after minus the number of days
 
-        System.out.println();
+        LocalDate d2 = date.plusDays(2);
+        System.out.println("The days after adding are : " + d2);  //Local date od after Adding the days
 
+        LocalDateTime d3 = LocalDateTime.of(2020, 10, 25, 5, 10, 30);  //Date and time in a partiular period of time
+        System.out.println("The Local Date ANd time of 2020 is : "+ d3);
 
-        LocalDateTime l1=LocalDateTime.of(1990, 05, 10, 2, 10);
-        System.out.println(l1);
+        Date date1 = new Date();
+        System.out.println(date1);
+        System.out.println(date1.getTime());
+        System.out.println(date1.toString());
+        System.out.println(date1.clone());
 
-        Date d=new Date(2024);
-        Date d1=new Date(2022);
-        int comparison=d.compareTo(d1);
-        System.out.println("Your comparison value is : "+comparison);
+        if(d2.isAfter(date))       // date after the given date is taken as a boolen value
+        {
+            System.out.println("Yes");
+        }
+        else
+        {
+            System.out.println("No");
+        }
+       if(date.isBefore(d2))       // date before the given date is also taken as boolen value
+       {
+           System.out.println("Yes");
+       }
+       else
+       {
+           System.out.println("No");
+       }
+           LocalDate d4 = LocalDate.now();
 
-        LocalTime Lt=LocalTime.now();
-        System.out.println(Lt);
+       if(d2.equals(d4))  // comparing dates using equals method
+       {
+               System.out.println("yes");
+       }
+       else
+       {
+           System.out.println("No");
+       }
 
-        //LocalTime Lt1=LocalTime.of();
-       // System.out.println(Lt1);
+          System.out.println(date1.hashCode()); // date compariso using hascode
 
+          date1.setTime(1000);  // set time also gives the milliseconds    
 
 
 
