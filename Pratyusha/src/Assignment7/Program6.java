@@ -31,44 +31,41 @@ public class Program6 {
 
         @Override
         public void method11() {
-            // TODO Auto-generated method stub
+          
             
         }
 
         @Override
         public void method12() {
-            // TODO Auto-generated method stub
+          
             
         }
 
         @Override
         public void method21() {
-            // TODO Auto-generated method stub
+            
             
         }
 
         @Override
         public void method22() {
-            // TODO Auto-generated method stub
+           
             
         }
 
         @Override
         public void method31() {
-            // TODO Auto-generated method stub
-            
+           
         }
 
         @Override
         public void method32() {
-            // TODO Auto-generated method stub
             
         }
 
         @Override
         public void method4() {
-            // TODO Auto-generated method stub
-            
+           
         }
          
      }

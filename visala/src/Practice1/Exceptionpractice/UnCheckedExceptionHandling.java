@@ -6,7 +6,7 @@ public class UnCheckedExceptionHandling extends RuntimeException{
         
      }
 }
-class Driverclass1
+class Driverclass11
 {
     static void Display()
     {
@@ -17,7 +17,7 @@ class Driverclass1
     {
        try
        {
-            Driverclass1.Display();
+            Driverclass11.Display();
        }
           catch(UnCheckedExceptionHandling un)
        {

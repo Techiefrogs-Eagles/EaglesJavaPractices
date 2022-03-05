@@ -1,7 +1,5 @@
 package src.ExceptionAssignment;
 
-import Assignment1.multipulication;
-
 public class Program23 {
     public static void main(String[] args) {
         int a = 10;
