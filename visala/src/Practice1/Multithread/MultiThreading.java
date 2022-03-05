@@ -1,4 +1,4 @@
-package src.Practice1;
+package src.Practice1.Multithread;
 
 public class MultiThreading extends Thread {
     public static void main(String[] args) {
