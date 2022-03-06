@@ -1,4 +1,4 @@
-package src.MethodsAssignment;
+    package src.MethodsAssignment;
 
 public class Bank {
     int getBalance()
