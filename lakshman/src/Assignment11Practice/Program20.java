@@ -11,7 +11,7 @@ public class Program20 {
         colour.add("Orange");
         colour.add("Yellow");
 
-        ArrayList<String> colour1 = (ArrayList)colour.clone();
+        ArrayList<String> colour1 = (ArrayList<String>)colour.clone();
 
         for (String string : colour1) {
             System.out.println(string);
