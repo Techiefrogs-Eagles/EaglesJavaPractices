@@ -20,7 +20,10 @@ public class ArrListDemo {
         list2.remove(0);
         list1.retainAll(list2);
         System.out.println(list1);
+        list2.clear();
+        list2.addAll(list1);
         System.out.println(list2);
-        list1.trimToSize();
+        //list1.trimToSize();
+        
     }
 }
