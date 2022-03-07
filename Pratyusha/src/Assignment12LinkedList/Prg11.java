@@ -1,8 +1,8 @@
-package Assignment11Arrays;
+package Assignment12LinkedList;
 
 import java.util.ArrayList;
 
-public class Prg20 
+public class Prg11 
 {
     public static void main(String[] args) 
     {
@@ -12,13 +12,10 @@ public class Prg20
         Colour.add("Black");
         Colour.add("Violet");
         Colour.add("Purpule");
-    
-        //Colour.clone();
-        
-      /*  ArrayList<String> colour1 = (ArrayList)Colour.clone();
 
-        for (String string : colour1) {
-            System.out.println(string);
-        }*/
+        for(int i = 0; i < Colour.size(); i++)
+        {
+            //System.out.println(+" "+i+get.i+" ");
+        }
     }
 }
