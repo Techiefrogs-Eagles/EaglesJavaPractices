@@ -1,6 +1,5 @@
 package src;
 
-import java.lang.constant.ConstantDescs;
 
 public class Constructors {
 
@@ -22,9 +21,9 @@ public class Constructors {
       System.out.println("This is Prameter1 Constructor");
     }
     public static void main(String[] args) {
-        Constructors Cobj2=new Constructors();
-        Constructors Cobj=new Constructors(2);
-        Constructors Cobj1=new Constructors( 2,"Java");
+       // Constructors Cobj2=new Constructors();
+       // Constructors Cobj=new Constructors(2);
+       // Constructors Cobj1=new Constructors( 2,"Java");
 
     }
     
@@ -39,6 +38,6 @@ class Constructors1 extends Constructors{
 
     }
     public static void main(String[] args) {
-        Constructors1 Conobj=new Constructors1();
+       // Constructors1 Conobj=new Constructors1();
     }
 }

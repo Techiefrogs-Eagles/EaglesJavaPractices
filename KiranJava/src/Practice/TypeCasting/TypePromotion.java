@@ -10,6 +10,6 @@ public class TypePromotion {
         double d=233.44;
         int in=(int) (d+s);
         System.out.println(in);
-        short sa=(short) (s*2);
+        short sa=(short) (s*2); 
     }
 }
