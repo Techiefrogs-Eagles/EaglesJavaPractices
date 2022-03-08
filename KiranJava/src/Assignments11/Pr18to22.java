@@ -17,6 +17,6 @@ public class Pr18to22 {
         ArrayList<Integer> arrli2=(ArrayList<Integer>)arrli.clone();
         System.out.println(arrli2);
         arrli2.addAll(arrli);
-        System.out.println(arrli2);
+        System.out.println(arrli2); 
     }
 }
