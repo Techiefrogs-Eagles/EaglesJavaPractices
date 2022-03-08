@@ -1,8 +1,7 @@
-package Assignment11Practice;
-
 import java.util.ArrayList;
 
-public class Program20 {
+public class Program19 
+{
     public static void main(String[] args) {
         ArrayList<String> colour = new ArrayList<String>();
         colour.add("Green");
@@ -11,10 +10,7 @@ public class Program20 {
         colour.add("Orange");
         colour.add("Yellow");
 
-        ArrayList<String> colour1 = (ArrayList<String>)colour.clone();
 
-        for (String string : colour1) {
-            System.out.println(string);
-        }
+        colour.ensureCapacity(5);
     }
 }

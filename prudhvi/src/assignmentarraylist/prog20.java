@@ -1,20 +1,20 @@
-package Assignment11Practice;
+package assignmentarraylist;
 
 import java.util.ArrayList;
 
-public class Program20 {
+public class prog20 {
     public static void main(String[] args) {
-        ArrayList<String> colour = new ArrayList<String>();
-        colour.add("Green");
-        colour.add("Red");
-        colour.add("Blue");
-        colour.add("Orange");
+        ArrayList<String> colour=new ArrayList<String>();
         colour.add("Yellow");
-
+        colour.add("White");
+        colour.add("Blue");
+        colour.add("Green");
+        
         ArrayList<String> colour1 = (ArrayList<String>)colour.clone();
 
         for (String string : colour1) {
             System.out.println(string);
         }
     }
+    
 }
