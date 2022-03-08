@@ -10,9 +10,9 @@ public class Prg18
         obj.add("Hello");
         obj.add("I am ");
         obj.add("Nemo");
-        LinkedList<String> obj1 = new LinkedList<String>();
+       // LinkedList<String> obj1 = new LinkedList<String>();
 
-        // obj1 = (LinkedList<String>)obj.clone();
+       /* obj1 = (LinkedList<String>)obj.clone();
     
         obj1.add("Hello");
         
@@ -20,7 +20,7 @@ public class Prg18
         for (String str : obj1)
         {
             System.out.println(str);
-        }
+        }*/
 
 
     }
