@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Vector;
 
+import javax.xml.transform.stream.StreamSource;
+
 public class VectorDemo {
     public static void main(String[] args) {
         /*Vector<String> V=new Vector<String>();
@@ -146,9 +148,28 @@ public class VectorDemo {
   System.out.println(V.toString());
 
 
+  Vector<Vector1> V2=new Vector<Vector1>();
+     Vector1 VV=new Vector1(1, "Hi");
+     Vector1 V11=new Vector1(2, "Hello");
+     V2.add(VV);
+     V2.add(V11);
+     Iterator<Vector1> itr=V2.iterator();
+     while(itr.hasNext())
+     {
+      Vector1 VV1= itr.next();
+      System.out.println(VV1.S+" "+VV1.a);
+     }
 
+   }
+}
+class Vector1
+{
+   int a=10;
+   String S="Hello";
+   Vector1(int a,String S)
+   {
+     this.a=a;
+     this.S=S;
 
-     
-   
-    }
+   }
 }

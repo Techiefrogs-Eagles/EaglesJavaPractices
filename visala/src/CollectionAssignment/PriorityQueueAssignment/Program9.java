@@ -10,7 +10,7 @@ public class Program9 {
         colour.add("blue");
         colour.add("pink");
         colour.add("Black"); 
-       colour.poll();
+       System.out.println("Retrive the elements=" +colour.poll());
        System.out.println(colour);
 
     }
