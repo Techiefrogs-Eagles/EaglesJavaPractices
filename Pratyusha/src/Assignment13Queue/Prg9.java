@@ -13,6 +13,6 @@ public class Prg9
         Colour.add("Yellow");
 
         Colour.poll();
-        System.out.println(Colour);
+        System.out.println(Colour+""+"Hello All");
     }
 }
