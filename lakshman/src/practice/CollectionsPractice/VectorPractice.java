@@ -1,17 +1,17 @@
 package practice.CollectionsPractice;
  
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.ListIterator;
+//import java.lang.reflect.Array;
+//import java.util.ArrayList;
+//import java.util.Collections;
+//import java.util.Iterator;
+//import java.util.ListIterator;
 import java.util.Vector;
  
 public class VectorPractice 
 {
     public static void main(String[] args) 
     {
-        String arr[] = new String[13];
+        //String arr[] = new String[13];
 
         /*ArrayList<Integer> obj1 = new ArrayList<Integer>();
         obj1.add(0);
