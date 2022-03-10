@@ -7,23 +7,23 @@ import java.util.Deque;
     public static void main(String[] args) 
     {
         Deque<String> dd = new ArrayDeque<String>();
-     dd.add("Rabbit");
-     dd.add("Pegion");
-     dd.add("Cat");
-     dd.offerFirst("Puppy");
-     System.out.println("After 1st transverse");
+        dd.add("Rabbit");
+        dd.add("Pegion");
+        dd.add("Cat");
+        dd.offerFirst("Puppy");
+        System.out.println("After 1st transverse");
 
-     for(String str : dd)
-     {
-         System.out.println(str);
-     }
+        for(String str : dd)
+        {
+           System.out.println(str);
+        }
 
-     dd.pollLast();
-     System.out.println("After Transversal");
-     for(String str1 : dd)
-     {
-         System.out.println(str1);
-     }
+        dd.pollLast();
+        System.out.println("After Transversal");
+        for(String str1 : dd)
+        {
+           System.out.println(str1);
+        }
     }
 }*/
 class Pet {    
