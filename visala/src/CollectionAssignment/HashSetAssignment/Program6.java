@@ -1,9 +1,8 @@
-package src.HashSetAssignment;
+package src.CollectionAssignment.HashSetAssignment;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 
-public class Program9 {
+public class Program6 {
     public static void main(String[] args) {
         HashSet<String> H=new HashSet<>();
         H.add("one");
@@ -12,7 +11,8 @@ public class Program9 {
         H.add("Four");
 
         H.add("Five");
-        ArrayList<String> A=new ArrayList<>(H);
-        System.out.println(A);
+        HashSet<String> H1=new HashSet<>(H);
+        System.out.println(H1);
     }
+    
 }

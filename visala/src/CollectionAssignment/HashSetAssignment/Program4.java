@@ -1,8 +1,8 @@
-package src.HashSetAssignment;
+package src.CollectionAssignment.HashSetAssignment;
 
 import java.util.HashSet;
 
-public class Program3 {
+public class Program4 {
     public static void main(String[] args) {
         HashSet<String> H=new HashSet<>();
         H.add("one");
@@ -11,6 +11,7 @@ public class Program3 {
         H.add("Four");
 
         H.add("Five");
-        System.out.println(H.size());
+        H.clear();
+        System.out.println(H);
     }
 }

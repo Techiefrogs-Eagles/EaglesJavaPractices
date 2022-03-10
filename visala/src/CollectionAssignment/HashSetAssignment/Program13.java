@@ -1,4 +1,4 @@
-package src.HashSetAssignment;
+package src.CollectionAssignment.HashSetAssignment;
 
 import java.util.HashSet;
 
