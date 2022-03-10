@@ -12,13 +12,13 @@ public class Program18 extends LinkedList<String>{
         obj.add("Morning");
         if(obj instanceof LinkedList<String>){
         
-        LinkedList<String> obj1 = (LinkedList<String>) obj.clone();
+        /*LinkedList<String> obj1 = (LinkedList<String>) obj.clone();
 
 
         for (String string : obj1) 
         {
             System.out.println(string);
-        }
+        }*/
     }
     }
 }
