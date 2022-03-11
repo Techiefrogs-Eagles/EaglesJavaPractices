@@ -11,42 +11,42 @@ public class HashMapPractice {
         HM.put(4,"Morning");
         HM.put(2, "team");
 
-       //System.out.println(HM);
+        //System.out.println(HM);
 
 
-       //HM.clear();
-       //System.out.println(HM);
+        //HM.clear();
+        //System.out.println(HM);
       
-     /*  if(HM.isEmpty())
-       {
-           System.out.println("Is Empty");
-       }
-      else
-       {
-             System.out.println("Not Empty");
+        /*  if(HM.isEmpty())
+            {
+               System.out.println("Is Empty");
+            }
+            else
+            {
+               System.out.println("Not Empty");
        
-       }*/
+            }*/
        
 
-     /*  HashMap<Integer,String> HM1=(HashMap<Integer,String>)HM.clone();
-       System.out.println(HM1);   */
+         /*  HashMap<Integer,String> HM1=(HashMap<Integer,String>)HM.clone();
+             System.out.println(HM1);   */
        
-      // System.out.println(HM.entrySet());
+         System.out.println(HM.entrySet());
 
-     //  System.out.println(HM.keySet());
+        //  System.out.println(HM.keySet());
 
-        /* HashMap<Integer,String> HM1=new HashMap<>();
-         HM1.putAll(HM);
-          System.out.println(HM1);*/
+         /* HashMap<Integer,String> HM1=new HashMap<>();
+            HM1.putAll(HM);
+            System.out.println(HM1);*/
 
          //  HM.putIfAbsent(5, "Good");
          // System.out.println(HM);
          
-        /*  HM.remove(4);
-          System.out.println(HM);*/
+         /*  HM.remove(4);
+             System.out.println(HM);*/
 
-          /* HM.remove(3, "Good");
-          System.out.println(HM);*/
+         /* HM.remove(3, "Good");
+            System.out.println(HM);*/
 
           // System.out.println((HM.containsKey(4)));
 
@@ -64,24 +64,24 @@ public class HashMapPractice {
            System.out.println(HM);*/
 
             
-         System.out.println(HM.size());
+           System.out.println(HM.size());
 
 
-         System.out.println(HM.values());
+           System.out.println(HM.values());
 
-         HM.replaceAll((a,b)->a+1+"....."+b);
-         System.out.println(HM);
+           HM.replaceAll((a,b)->a+1+"....."+b);
+           System.out.println(HM);
 
 
         
-        /* HM.compute(5, (a,b)-> b+"Hello");
-         System.out.println(HM);*/
+         /*  HM.compute(5, (a,b)-> b+"Hello");
+             System.out.println(HM);*/
 
-        /* HM.computeIfPresent(5, (a,b)-> b+"Hello");
-         System.out.println(HM);*/
+          /* HM.computeIfPresent(5, (a,b)-> b+"Hello");
+             System.out.println(HM);*/
 
-         /*HM.computeIfAbsent(5, (a)->"Hello");
-         System.out.println(HM);*/
-       
+         /* HM.computeIfAbsent(5, (a)->"Hello");
+            System.out.println(HM);
+       */
     }
 }
