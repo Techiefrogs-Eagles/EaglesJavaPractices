@@ -63,10 +63,10 @@ public class TreeSetPractice {
 
         obj.remove("Audi");
 
-        obj.clear();
+       // obj.clear();
 
     
-        //TreeSet<String> tobj = (TreeSet<String>)obj.clone();
+       // TreeSet<String> tobj = (TreeSet<String>)obj.clone();
 
         System.out.println(obj.first());
 
