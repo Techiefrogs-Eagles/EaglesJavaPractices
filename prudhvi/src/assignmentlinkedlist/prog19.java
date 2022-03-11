@@ -8,7 +8,7 @@ public class prog19 {
         obj.add("Hello");
         obj.add("Good");
         obj.add("Morning");
-        obj.add("Team");
+        
        
        
         obj.pollFirst();
