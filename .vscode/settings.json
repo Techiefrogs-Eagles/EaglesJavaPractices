@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Srikar/src/BasicPractises/BasicPractises/Collections",
-        "Srikar/src/AHashSet Assignment"
+        "Srikar/src/AHashSet Assignment",
+        "Srikar/src/BasicPractises/BasicPractises/MapConcepts"
     ]
 }

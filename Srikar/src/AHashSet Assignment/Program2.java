@@ -9,7 +9,7 @@ public class Program2 {
         hashSet.add("Chair");
         hashSet.add("table");
         hashSet.add("laptop");
-        hashSet.add("Charger");
+        hashSet.add("Charger"); 
 
         hashSet.add("Pen");
         Iterator<String> itr=hashSet.iterator();
