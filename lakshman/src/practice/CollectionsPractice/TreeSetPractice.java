@@ -44,7 +44,7 @@ public class TreeSetPractice {
 
         System.out.println(obj.pollFirst());
 
-        System.out.println(obj.pollLast());
+        //System.out.println(obj.pollLast());
 
         Spliterator<String> sobj = obj.spliterator();
         sobj.forEachRemaining(i->System.out.println(i));
@@ -61,9 +61,9 @@ public class TreeSetPractice {
 
         System.out.println(obj.isEmpty());
 
-        obj.remove("sai");
+        obj.remove("lakshman");
 
-        obj.clear();
+        //obj.clear();
 
         //TreeSet<String> tobj = (TreeSet<String>)obj.clone();
 
