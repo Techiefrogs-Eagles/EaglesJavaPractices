@@ -68,9 +68,11 @@ public interface HashTableDemo {
 
       //System.out.println(hashtable.get(2));
 
-     hashtable.remove(4);
+    // hashtable.remove(4);
 
-       System.out.println(hashtable.size());
+       //System.out.println(hashtable.size());
+
+       System.out.println(hashtable);
         
         
         //System.out.println(hashtable);
