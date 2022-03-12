@@ -54,7 +54,7 @@ public class TreeMapDemo {
         System.out.println(tm.containsValue("value"));
         tm.remove(1);
        System.out.println( tm.values());
-       System.out.println(tm.size();
+       System.out.println(tm.size());
 
     }
 }
