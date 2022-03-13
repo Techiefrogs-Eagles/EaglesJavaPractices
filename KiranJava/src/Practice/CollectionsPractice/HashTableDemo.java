@@ -38,6 +38,6 @@ public class HashTableDemo extends Hashtable{
             System.out.println(en.nextElement());
         }
         System.out.println(ht.hashCode());
-        ht.rehash();
+        
     }
 }
