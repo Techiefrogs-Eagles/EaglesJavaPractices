@@ -317,7 +317,7 @@ public class CollectionsClassDemo {
     System.out.println(NM);*/
 
 
-   /*   
+      
     Set<String> S = new HashSet<String>();  
     S.add("A");  
     S.add("C");  
@@ -325,12 +325,11 @@ public class CollectionsClassDemo {
     S.add("D");      
      Collections.synchronizedSet(S);  
       System.out.println(S);  
-        */
+        
     
 
 
-        
      
-        
+            
     }
 }
