@@ -1,7 +1,11 @@
 {
     "java.project.sourcePaths": [
-        "Srikar/src/BasicPractises/BasicPractises/Collections",
-        "Srikar/src/AHashSet Assignment",
-        "Srikar/src/BasicPractises/BasicPractises/MapConcepts"
+<<<<<<< HEAD
+        "visala",
+        "prudhvi/src/assignmentpQueue",
+        "prudhvi/src/assignmenthashset"
+=======
+        "Pratyusha\\src"
+>>>>>>> d726b504aa524bafd71428e23b1226809a8a6628
     ]
 }
