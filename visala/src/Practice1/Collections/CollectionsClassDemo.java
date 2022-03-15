@@ -318,18 +318,81 @@ public class CollectionsClassDemo {
 
 
       
-    Set<String> S = new HashSet<String>();  
+   /* Set<String> S = new HashSet<String>();  
     S.add("A");  
     S.add("C");  
     S.add("B");  
     S.add("D");      
      Collections.synchronizedSet(S);  
-      System.out.println(S);  
-        
-    
+      System.out.println(S);  */
+
+   /*  Collection<String> C=new ArrayList<>();
+      C.add("Mokshitha");
+      C.add("Tarak");
+      C.add("Siva");
+      Collection<String> C1=Collections.unmodifiableCollection(C);
+      Collections.addAll(C, "Nandigam");
+      System.out.println(C1);*/
+       
+
+    /*  List<Integer> L=new ArrayList<>();
+      L.add(1);
+      L.add(2);
+      L.add(3);
+      List<Integer> L1=Collections.unmodifiableList(L);
+      Collections.addAll(L, 4,5);
+      System.out.println(L1);*/
 
 
-     
-            
+    /*  Map<Integer,String> M=new HashMap<>();
+      M.put(1, "A");
+      M.put(2, "B");
+      M.put(3,"C");
+      Map<Integer,String> M1=Collections.unmodifiableMap(M);
+      M.put(4,"D");
+      System.out.println(M1);*/
+
+
+    /*Set<String> S=new TreeSet<>();
+      S.add("A");
+      S.add("B");
+      S.add("C");
+      Set<String> S1=Collections.unmodifiableSet(S);
+      S.add("D");
+      System.out.println(S1);*/
+      
+    /*  NavigableMap<String, Integer> NM= new TreeMap<>();
+      NM.put("Apple", 1);
+      NM.put("Bat",2);
+      NM.put("Cat",3);
+      NavigableMap<String,Integer> NM1=Collections.unmodifiableNavigableMap(NM);
+      NM.put("Dog", 4);
+      System.out.println(NM1);*/
+
+     /* NavigableSet<String> NM=new TreeSet<>();
+      NM.add("A");
+      NM.add("B");
+      NM.add("C");
+      NavigableSet<String> NM1=Collections.unmodifiableNavigableSet(NM);
+      NM.add("D");
+      NM.add("E");
+      System.out.println(NM1);    */
+      
+     /* SortedMap<Integer, Integer> SM=new TreeMap<Integer,Integer>();
+      SM.put(1, 10);
+      SM.put(2,20);
+      SM.put(3,30);
+      SortedMap<Integer,Integer> SM1=Collections.unmodifiableSortedMap(SM);
+      SM.put(4,40);
+      System.out.println(SM1);*/
+
+      SortedSet<String> SM=new TreeSet<>();
+      SM.add("A");
+      SM.add("B");
+      SM.add("C");
+      SortedSet<String> SM1=Collections.unmodifiableSortedSet(SM);
+      SM.add("D");
+      System.out.println(SM1);
+               
     }
 }
