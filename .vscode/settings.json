@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "visala",
-        "prudhvi/src/assignmentpQueue"
+        "prudhvi/src/assignmentpQueue",
+        "prudhvi/src/assignmenthashset"
     ]
 }
