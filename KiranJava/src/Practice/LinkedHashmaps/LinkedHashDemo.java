@@ -4,6 +4,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class LinkedHashDemo {
+    private static final int MAX_ENTRIES = 0;
+
     public static void main(String[] args) {
         LinkedHashMap<Integer,String> lh=new LinkedHashMap<>();
         lh.put(1, "a");
@@ -26,5 +28,11 @@ public class LinkedHashDemo {
         //System.out.println(lh.removeEl);
         lh.replaceAll((k,v)->v.toUpperCase());
         System.out.println(lh);
+        LinkedHashMap lhm = new LinkedHashMap(MAX_ENTRIES, 0.75F, false) {
+
+            protected boolean removeEldestEntry(Map.Entry eldest) {
+               return false;
+            }
+         };
     }
 }
