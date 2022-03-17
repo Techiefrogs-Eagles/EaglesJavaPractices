@@ -29,23 +29,25 @@ public class EnumMapPractice {
         //EnumMap<days1,Integer> obj1 = new EnumMap<>(days1.class);
         //obj1.putAll(obj);
 
-        for (Map.Entry<days1,Integer> M: obj.entrySet()) {
+        for (Map.Entry<days1,Integer> M: obj.entrySet()) 
+        {
             System.out.print(M.getKey()+"-"+M.getValue()+"  ");
         }
 
         days1 day = days1.FRIDAY;
+        //int  a  =     10;
 
-        switch (day) {
+        switch (day) 
+        {
             case MONDAY:
                 System.out.println("Monday");
                 break;
             case TUESDAY:
-                System.out.println("Monday");
+                System.out.println("Tuesday");
                 break;
             case FRIDAY:
-                System.out.println("Monday");
-                break;
-        
+                System.out.println("Friday");
+                break;        
             default:
                 System.out.println("Wrong information");
                 break;
