@@ -195,20 +195,25 @@ public class CollectionsClassDemo {
         
         System.out.println(Collections.frequency(arr1,"B"));*/
 
-     /*  ArrayList<Integer> arr1=new ArrayList<>();
+     /* ArrayList<Integer> arr1=new ArrayList<>();
         arr1.add(10);
         arr1.add(20);
         arr1.add(30);
-
+        arr1.add(40);
+        arr1.add(50);
+        arr1.add(60);
+        arr1.add(30);
+        arr1.add(40);
+        arr1.add(50);
 
         ArrayList<Integer> arr2=new ArrayList<>();
-        arr2.add(10);
+        arr2.add(30);
+        arr2.add(40);
         arr2.add(50);
-        arr2.add(60);
-        arr2.add(20);
+      
      
         System.out.println(Collections.lastIndexOfSubList(arr1, arr2));
-       //System.out.println(  Collections.indexOfSubList(arr1, arr2));*/
+       System.out.println(  Collections.indexOfSubList(arr1, arr2));*/
 
 
    /*  Vector<String> V=new Vector<>();
@@ -312,7 +317,7 @@ public class CollectionsClassDemo {
     NM.add(2);
     NM.add(3);
     NM.add(4);
-  //  Collections.synchronizedNavigableSet(NM);
+   Collections.synchronizedNavigableSet(NM);
     
     System.out.println(NM);*/
 

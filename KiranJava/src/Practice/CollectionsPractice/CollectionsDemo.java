@@ -316,6 +316,83 @@ public class CollectionsDemo {
      Collections.synchronizedSet(S);  
       System.out.println(S);  
         */
-
+ 
+        /*SortedMap<String, Integer> map = new TreeMap<String, Integer>();  
+        map.put("Ten", 10);  
+        map.put("Twenty", 20);  
+        map.put("Thirty", 30);  
+        map.put("Fourty", 40);  
+        SortedMap<String, Integer> map2 = Collections.unmodifiableSortedMap(map);  
+         map.put("Fifty", 50);  
+        System.out.println(map2);  */
+       
+        /* SortedMap<String, String> map = new TreeMap<String, String>();  
+        map.put("1", "Whatsapp");  
+        map.put("4", "Instagram");  
+        map.put("3", "Facebook");  
+        map.put("2", "Twitter");  
+        SortedMap<String, String> sortmap = Collections.synchronizedSortedMap(map);  
+        System.out.println("Synchronized sorted map is :" + sortmap);  */
+       
+        /* SortedSet<String> set = new TreeSet<String>();  
+          //Add values in the set  
+          set.add("Facebook");  
+          set.add("Twitter");  
+          set.add("Whatsapp");  
+          set.add("Instagram");  
+          //Create a synchronized sorted set  
+          Set<String> synset = Collections.synchronizedSortedSet(set);  
+          System.out.println("Synchronized Sorted set is :"+synset); */
+          
+          /* Collection<String> c = new ArrayList<>();  
+        Collections.addAll(c, "Google", "Mozila FireFox", "Yahoo");  
+        System.out.println("Initial Collection: "+ c);  
+        Collection<String> c2 = Collections.unmodifiableCollection(c);         
+        c2.add("Safari");    */
+       
+        /*List<String> list = new ArrayList<>();  
+        Collections.addAll(list, "Google", "Mozila FireFox", "Yahoo");  
+        List<String> list2 = Collections.unmodifiableList(list);  
+        System.out.println("Unmodifiable List: " + list2);  
+        list2.add("Safari");   */
+       
+        /*NavigableSet<Integer> set = new TreeSet<>();  
+            Collections.addAll(set, 1,2,3,4,5);  
+            System.out.println("Initial Set: " + set);  
+            NavigableSet<Integer> set2 = Collections.unmodifiableNavigableSet(set);  
+            System.out.println("Unmodifiable Navigable Set: " + set2);  
+            //Modifying the original set  
+            set.add(15);  
+            System.out.println("Unmodifiable Navigable Set: " + set2);  */
+            
+      /* NavigableMap<Integer, String> map = new TreeMap<>();  
+        map.put(1, "one");  
+        map.put(2, "two");  
+        System.out.println("Initial Unmodifiable Navigable Map: "+map);  
+        NavigableMap<Integer, String> map2 = Collections.unmodifiableNavigableMap(map);  
+        map2.put(3, "three");  */
+    
+        /*SortedMap<String, String> map = new TreeMap<String, String>();  
+         map.put("1", "Whatsapp");  
+         map.put("4", "Instagram");  
+         map.put("3", "Facebook");  
+         map.put("2", "Twitter");  
+           System.out.println("Original Map: " + map);  
+           SortedMap<String, String> map2 = Collections.unmodifiableSortedMap(map);  
+           map.put("5","Hangout");  
+           System.out.println("Unmodifiable Sorted Map: " + map2); */
+    
+           /*SortedSet<String> set = new TreeSet<String>();  
+          //Add values in the set  
+          set.add("Facebook");  
+          set.add("Twitter");  
+          set.add("Whatsapp");  
+          set.add("Instagram");  
+          //Create a Unmodifiable sorted set  
+          SortedSet<String> set2 = Collections.unmodifiableSortedSet(set);  
+          System.out.println("Unmodifiable Sorted set is :"+set2);  
+          set.add("Google");  
+          System.out.println("Unmodifiable Sorted set after modify is:"+set2);*/
+        
     }
 }
