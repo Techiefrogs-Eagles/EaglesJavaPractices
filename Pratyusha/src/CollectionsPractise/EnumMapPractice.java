@@ -1,4 +1,4 @@
-package practice.CollectionsPractice;
+package CollectionsPractise;
 
 import java.util.EnumMap;
 import java.util.Map;
@@ -29,28 +29,27 @@ public class EnumMapPractice {
         //EnumMap<days1,Integer> obj1 = new EnumMap<>(days1.class);
         //obj1.putAll(obj);
 
-        for (Map.Entry<days1,Integer> M: obj.entrySet()) 
-        {
+        for (Map.Entry<days1,Integer> M: obj.entrySet()) {
             System.out.print(M.getKey()+"-"+M.getValue()+"  ");
         }
 
         days1 day = days1.FRIDAY;
-        //int  a  =     10;
 
-        switch (day) 
-        {
+        switch (day) {
             case MONDAY:
                 System.out.println("Monday");
                 break;
             case TUESDAY:
-                System.out.println("Tuesday");
+                System.out.println("Monday");
                 break;
             case FRIDAY:
-                System.out.println("Friday");
-                break;        
+                System.out.println("Monday");
+                break;
+        
             default:
                 System.out.println("Wrong information");
                 break;
         }
     }
 }
+
