@@ -23,7 +23,7 @@ public class IteratorPractice {
         int i = 0;
         while (itr.hasNext()) {
            i = (int) itr.next();
-           if (i==30) {
+           if (i == 30) {
               itr.remove();
               System.out.println(A);
               break;   
