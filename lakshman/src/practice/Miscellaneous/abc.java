@@ -1,4 +1,4 @@
-package practice;
+package practice.Miscellaneous;
 
 import java.util.Arrays;
 import java.util.Comparator;

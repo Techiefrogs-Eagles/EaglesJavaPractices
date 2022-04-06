@@ -1,38 +1,38 @@
 package CollectionsPractise;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Collection;
+//import java.util.ArrayDeque;
+//import java.util.ArrayList;
+//import java.util.Collection;
 import java.util.Collections;
-import java.util.Deque;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.IdentityHashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
-import java.util.NavigableMap;
-import java.util.NavigableSet;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Set;
-import java.util.SortedMap;
+//import java.util.Deque;
+//import java.util.Enumeration;
+//import java.util.HashMap;
+//import java.util.HashSet;
+//import java.util.IdentityHashMap;
+//import java.util.Iterator;
+//import java.util.List;
+//import java.util.ListIterator;
+//import java.util.Map;
+//import java.util.NavigableMap;
+//import java.util.NavigableSet;
+//import java.util.PriorityQueue;
+//import java.util.Queue;
+//import java.util.Set;
+//import java.util.SortedMap;
 import java.util.SortedSet;
-import java.util.TreeMap;
+//import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class CollectionsClassDemo 
 {
     public static void main(String[] args) 
     {
-        ArrayList<Character> arr = new ArrayList<>();
+        /*ArrayList<Character> arr = new ArrayList<>();
         arr.add('A');
         arr.add('B');
         arr.add('C');
         arr.add('D');
-        arr.add('E');
+        arr.add('E');*/
         
        // Collections.addAll(arr , 'F','G','H');
        // System.out.println(arr);

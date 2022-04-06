@@ -1,5 +1,6 @@
 package practice.CollectionsPractice;
 
+import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -9,11 +10,16 @@ enum days {
   }
 
 public class EnumSetDemo {
-    enum months{
-        hi,hello,good,morning
+    enum months
+    {
+        jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec
     }
     public static void main(String[] args) {
-        Set<days> obj = EnumSet.of(days.TUESDAY, days.WEDNESDAY);  
+        ArrayList<days> arr = new ArrayList<>();
+        arr.add(days.FRIDAY);
+
+        EnumSet<days> obj = EnumSet.of(days.SUNDAY);
+        obj = EnumSet.range(days.MONDAY, days.SATURDAY);
         Iterator<days> itr = obj.iterator();  
         while (itr.hasNext()) 
         { 
@@ -23,11 +29,14 @@ public class EnumSetDemo {
         System.out.println(obj2);
         Set<days> obj3 = EnumSet.noneOf(days.class);
         System.out.println(obj3);
-        Set<months> obj4 = EnumSet.allOf(months.class);
+        Set<days> obj4 = EnumSet.copyOf(arr);
+        System.out.println(obj4);
+
+        Set<days> obj5 = obj.clone();
         
-        for (months months : obj4) 
+        for (days day : obj5) 
         {
-            System.out.println(months);
+            System.out.println(day);
         }
     }
 }
