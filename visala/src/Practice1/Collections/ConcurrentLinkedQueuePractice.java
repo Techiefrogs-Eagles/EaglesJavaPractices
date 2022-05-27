@@ -1,16 +1,12 @@
 package src.Practice1.Collections;
 
-<<<<<<< HEAD
 import java.util.Iterator;
 import java.util.Spliterator;
-=======
 import java.util.concurrent.ConcurrentLinkedDeque;
->>>>>>> 2e407b985a3b11cdcbb931f9423b919672ca7363
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class ConcurrentLinkedQueuePractice {
     public static void main(String[] args) {
-<<<<<<< HEAD
         ConcurrentLinkedQueue<Integer> CLQ = new ConcurrentLinkedQueue<>();
         CLQ.add(1);
         CLQ.add(2);
@@ -65,10 +61,7 @@ public class ConcurrentLinkedQueuePractice {
 
         System.out.println(CLQ);
     }
+
+    ConcurrentLinkedQueue<Integer> CLQ = new ConcurrentLinkedQueue<>();
+
 }
-=======
-        ConcurrentLinkedQueue<Integer> CLQ=new ConcurrentLinkedQueue<>();
-        
-    }
-}
->>>>>>> 2e407b985a3b11cdcbb931f9423b919672ca7363
