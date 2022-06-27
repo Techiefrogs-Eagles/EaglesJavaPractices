@@ -1,9 +1,8 @@
 package src.Practice1.Multithread;
 
 public class Runtime1 {
-    public static void main(String[] args) throws Exception
-    {
-        //Runtime.getRuntime().exec("notepad");
+    public static void main(String[] args) throws Exception {
+        // Runtime.getRuntime().exec("notepad");
         Runtime obj = Runtime.getRuntime();
         System.out.println(obj.totalMemory());
         System.out.println(obj.freeMemory());

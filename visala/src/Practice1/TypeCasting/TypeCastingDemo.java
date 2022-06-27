@@ -22,7 +22,7 @@ public class TypeCastingDemo {
             System.out.println(a);
 
             //Narrowing or explicit 
-          //  higher to loe
+          //  higher to low
 
             double d1=30;
             float f1=(float)d1;
